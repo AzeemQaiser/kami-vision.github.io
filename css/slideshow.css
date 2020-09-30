@@ -1,0 +1,59 @@
+.slideshow-container {
+	width: 100%;
+	height: 662px;
+	background-image: url(../images/handshake-slidehow-img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+/*style the company statement*/
+.slideshow-container h2 {
+	width: 31%;
+	background-color: #102439;
+	font-family: "nolan-regular-36";
+	font-size: 2em;
+	font-weight: 100;
+	color: #fff;
+	padding: 1em 0.5em;
+	position: absolute;
+	right: 20%;
+	top: 30%;
+}
+
+/*right arrow for the slideshow banner*/
+
+.box-right-arrow {
+
+	width: 60px;
+	height: 60px;
+	background-color: #17416d;
+	color: #fff;
+	padding: 13.5px;
+	text-align: center;
+	font-size: 1.8em;
+	font-family: "nolan-regular-36";
+	position: absolute;
+	right: 16.2%;
+	top: 47.9%;
+}
+
+/*dots for the slider*/
+
+.dots {
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	
+}
+.slideshow-circle {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.slideshow-circle:nth-of-type(2) {
+	background-color: #1e90ff;
+}

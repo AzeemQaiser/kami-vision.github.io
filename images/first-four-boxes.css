@@ -1,0 +1,156 @@
+	.flex-1 {
+			display: flex;
+			width: 100%;
+			flex-direction: row;
+			margin-bottom: 100px;
+		}
+
+		.flex-2 {
+			display: flex;
+			width: 100%;
+			flex-direction: row;
+			margin-bottom: 50px;
+		}
+
+		.box {
+			flex-basis: 40%;
+			padding-top: 7%;
+			padding-left: 7%;
+			padding-bottom: 5%;
+			padding-right: 10%;
+		}
+
+		.gray {
+			background-color: #F0F0F0;
+
+		}
+
+
+		.box h1,
+		.box h2,
+		.box h3 {
+			margin-bottom: 117px;
+		}
+
+		.box p:nth-child(1) {
+			margin-bottom: 117px;
+			font-family: "nolan-bold";
+			color: #244e89;
+			font-size: 2.2em;
+		}
+
+		.box h1 {
+			font-family: "nolan-regular-36";
+			color: #000;
+			font-size: 3em;
+		}
+
+		.box h2 {
+			font-family: "nolan-regular-36";
+			color: #000;
+			font-size: 1.7em;
+		}
+
+		.box h3 {
+			font-family: 'Lato', sans-serif;
+		}
+
+
+		.box p:nth-child(5) {
+			color: #17416D;
+			font-family: "nolan-regular-36";
+			font-weight: bolder;
+			font-size: 0.7em;
+		}
+
+		.box2 {
+			flex-grow: 1;
+			background-color: #FFF;
+			padding-top: 7%;
+			padding-left: 7%;
+			padding-bottom: 5%;
+			padding-right: 10%;
+		}
+
+
+		.box2 h1,
+		.box2 h2,
+		.box2 h3 {
+			margin-bottom: 117px;
+		}
+
+		.box2 p:nth-child(1) {
+			margin-bottom: 117px;
+			font-family: "nolan-bold";
+			color: #244e89;
+			font-size: 2.2em;
+		}
+
+		.box2 h1 {
+			font-family: "nolan-regular-36";
+			color: #000;
+			font-size: 3em;
+		}
+
+		.box2 h2 {
+			font-family: "nolan-regular-36";
+			color: #000;
+			font-size: 1.7em;
+		}
+
+		.box2 h3 {
+			font-family: 'Lato', sans-serif;
+		}
+
+
+		.box2 p:nth-child(5) {
+			color: #17416D;
+			font-family: "nolan-regular-36";
+			font-weight: bolder;
+
+			font-size: 0.7em;
+		}
+
+		.black {
+			background-color: #000;
+			border: 1px solid #707070;
+		}
+
+		#black-box h1,
+		#black-box h2,
+		#black-box h3,
+		#black-box p {
+			color: #fff;
+		}
+
+		#gray-text h1,
+		#gray-text h2,
+		#gray-text h3,
+		#gray-text p {
+			color: #A2A3A3;
+		}
+
+		#gray-text p:first-child {
+			font-family: "nolan-heavy-bold";
+			font-weight: bolder;
+		}
+
+
+		#black-box {
+			position: relative;
+		}
+
+		.down-arrow {
+			width: 82px;
+			border: 1px solid #fff;
+			border-radius: 50%;
+			height: 82px;
+			color: #fff;
+			font-size: 2.5em;
+			text-align: center;
+			padding-top: 15px;
+			position: absolute;
+			bottom: 5%;
+			right: 5%;
+			font-family: "nolan-regular-36";
+		}

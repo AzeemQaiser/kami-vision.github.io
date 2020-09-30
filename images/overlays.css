@@ -1,0 +1,51 @@
+
+/*OVERLAYS*/
+.tilted {
+	height: 512px;
+	background-image: linear-gradient(45deg, #ffffff 37.50%, #2fb5fc 37.50%, #2fb5fc 50%, #ffffff 50%, #ffffff 87.50%, #2fb5fc 87.50%, #2fb5fc 100%);
+	background-size: 8.66px 8.66px;
+	width: 70%;
+	margin: 75px auto;
+
+}
+
+.straight-line {
+	background-image: linear-gradient(90deg, #ddeefa 48.84%, #17416d 48.84%, #17416d 50%, #ddeefa 50%, #ddeefa 98.84%, #17416d 98.84%, #17416d 100%);
+	background-size: 86.00px 86.00px;
+	height: 517px;
+	width: 70%;
+	margin: 75px auto;
+
+}
+
+.dotted-1 {
+	height: 525px;
+	background: rgba(white);
+	background-image: radial-gradient(#17416d 5%, transparent 15%);
+	background-size: 35px 35px;
+	width: 70%;
+	margin: 75px auto;
+
+}
+
+.dotted-2 {
+	height: 525px;
+	background-color: #fff;
+	background-image: radial-gradient(#17416d 23%, transparent 3%);
+	background-size: 25px 25px;
+	width: 70%;
+	margin: 75px auto;
+
+}
+
+
+
+.dotted-3 {
+	height: 525px;
+	background: rgba(white);
+	background-image: radial-gradient(#17416d 10%, transparent 25%);
+	background-size: 17px 17px;
+	width: 70%;
+	margin: 75px auto;
+
+}

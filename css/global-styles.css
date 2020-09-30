@@ -1,0 +1,69 @@
+/*apply a global reset 16px = 1em = 1rem*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+
+
+.container {
+	width: 82%;
+	margin: 0 auto;
+/*	outline: 3px solid red;*/
+	height: 20000px;
+}
+
+a { 
+	text-decoration: none;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.outline {
+	outline: 3px solid red;
+}
+
+/*fonts needed*/
+
+@font-face {
+	font-family: "nolan-bold";
+	src: url("../fonts/nolan-bold.ttf")
+}
+
+@font-face {
+	font-family: "nolan-extra-bold";
+	src: url("../fonts/nolan-extra-bold.ttf");
+}
+
+@font-face {
+	font-family: "nolan-heavy-bold";
+	src: url("../fonts/nolan-heavy-bold.ttf");
+}
+
+@font-face {
+	font-family: "nolan-regular";
+	src: url("../fonts/nolan-regular.ttf")
+}
+
+@font-face {
+	font-family: "nolan-regular-16";
+	src: url("../fonts/nolan-regular-16.ttf")
+}
+
+@font-face {
+	font-family: "nolan-regular-36";
+	src: url("../fonts/nolan-regular-36.ttf");
+}
+
+@font-face {
+	font-family: "gothic-regular";
+	src: url("../fonts/gothic-regular.ttf")
+}

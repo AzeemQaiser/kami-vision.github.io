@@ -1,0 +1,128 @@
+
+		#content {
+			margin-top: 150px;
+			margin-bottom: 50px;
+			height: 330px;
+			position: relative;
+		}
+
+		#content h2 {
+			font-family: "nolan-regular-36";
+			font-size: 2.8em;
+			margin-bottom: 125px;
+		}
+
+		#content section {
+			display: flex;
+			flex-direction: row;
+			position: relative;
+		}
+
+		.retail:nth-of-type(1) {
+			flex-basis: 15%;
+			background-color: #343434;
+			padding: 1.2em;
+			margin-right: 1.2em;
+			color: #fff;
+		}
+
+		.retail:nth-of-type(2) {
+			flex-basis: 15%;
+			background-color: #17416D;
+			padding: 1.2em;
+			margin-right: 1.2em;
+			color: #fff;
+		}
+
+		.retail:nth-of-type(3) {
+			flex-basis: 15%;
+			background-color: #fff;
+			padding: 1.2em;
+			box-shadow: 0 3px 6px #00000029;
+			color: #17416d;
+		}
+
+		.retail h3 {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.2em;
+			margin-bottom: 12px;
+		}
+
+		.retail p {
+			font-family: "nolan-regular-16";
+		}
+
+
+
+		.retail a {
+			font-size: 2em;
+			text-decoration: none;
+			color: inherit;
+		}
+
+		#kami {
+			color: #17416d;
+			padding: 2em;
+			background-color: #9CCEDD;
+			width: 25%;
+			position: absolute;
+			bottom: -7%;
+			right: 0;
+			margin-bottom: 75px;
+		}
+
+		#kami h3 {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.2em;
+			margin-bottom: 12px;
+			position: relative;
+
+		}
+
+		#kami h3 span {
+			position: absolute;
+			right: 2%;
+			font-size: 1.2em;
+			font-family: 'Lato', sans-serif;
+
+		}
+
+		#kami p {
+			font-family: "nolan-regular-16";
+
+		}
+
+		#saas {
+			position: absolute;
+			bottom: -12%;
+			right: 0;
+			padding-left: 2em;
+			padding-top: 1em;
+			padding-bottom: 1em;
+			background-color: #343434;
+			font-family: "Lato", sans-serif;
+			color: #fff;
+			width: 25%;
+		}
+
+		#saas h3 {
+			position: relative;
+		}
+
+		#saas h3 span {
+			position: absolute;
+			right: 10%;
+			font-size: 1.2em;
+			font-family: "Lato", sans-serif;
+		}
+
+
+		#healthcare {
+			display: flex;
+			margin-top: 105px;
+			justify-content: space-between;
+		}
+
+		#healthcare .retail {
+			flex-basis: 33%;
+		}

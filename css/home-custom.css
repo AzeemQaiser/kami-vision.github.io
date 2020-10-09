@@ -1,0 +1,82 @@
+section.benefit-section {
+    background-image: linear-gradient(#CAE0F0, #FEFEFE);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.benefit-info-pad {
+    padding-left: 6rem;
+}
+.benefitContent p {
+    font-size: 14px;
+    line-height: 1.5;
+    /* font-weight: 400; */
+    padding-bottom: 8px;
+}
+.benefitContent {
+    padding-bottom: 3rem;
+}
+.benefit-count {
+    font-size: 40px;
+    font-family: 'Nolan', sans-serif;
+    position: relative;
+    color: #1f7ad9;
+    text-align: center;
+	line-height:40px;
+	display:inline;
+}
+.countCnt-p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 1;
+	    padding-top: 10px;
+    font-family: 'Nolan', sans-serif;
+}
+.custcnt {
+    text-align: center;
+}
+.custcnt .row > [class*="col"] {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.benefit-dtls ul {
+    list-style: none;
+}
+.benefit-dtls h2 {
+font-size: 14px;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    overflow: visible;
+    border: 3px #E9F5FF solid;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: groove;
+    border-bottom-style: hidden;
+}
+.benefit-dtls p {
+    font-size: 10px;
+    line-height: 1.5;
+}
+.benefit-dtls {
+    background-color: #ffff;
+    margin-left: 6rem;
+    margin-right: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.benefit-title {
+    color: #19436F;
+    font-size: 23px;
+    padding-left: 8rem;
+}
+.benefit-Bg {
+    padding-top: 1rem;
+}
+
+@media (min-width: 991px) {
+
+}
+
+@media (max-width: 991px) {
+	
+}	

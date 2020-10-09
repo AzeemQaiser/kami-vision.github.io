@@ -5,7 +5,7 @@
 .career-section1 {
 	background-color: #f4faff;
 	width: 100%;
-	height: 70vh;
+	height: 80vh;
 }
 
 .career-section2 {
@@ -33,8 +33,8 @@
 }
 
 .col-sm-6.gitcol {
-	margin-top: -45rem;
-	background-color: #d6e7f4;
+	      margin-top: -48rem;
+    background-color: #d6e7f4;
 }
 
 .col-sm-6.addr {
@@ -42,28 +42,28 @@
 }
 
 .career-section3 {
-	margin-left: 8rem;
+	margin-left: 10rem;
 	margin-bottom: 5rem;
 }
 
 .career-section4 {
     position: absolute;
     /* margin-left: 11%; */
-    margin-top: -94rem;
+    margin-top: -102rem;
     margin-left: 6.4rem;
     background: transparent;
 }
 
 .section4-IMG {
-	width: 61.1rem;
+	width: 66rem;
     height: 12rem;
 }
 
 .section3-header {
-    color: #000;
+color: #000;
     font-size: 32px;
-    padding-top: 4rem;
-    padding-bottom: 18rem;
+    padding-top: 5rem;
+    padding-bottom: 21rem;
 }
 
 .section3-header1 {
@@ -84,7 +84,7 @@
 }
 
 .con-font {
-	font-size: 14px;
+	font-size: 15px;
     /* margin-top: 117%; */
     /* margin-left: 35%; */
     color: #9da3ab;
@@ -116,6 +116,7 @@
 }
 .check-box label {
     font-size: 11px;
+	    padding-left: 28px
 }
 .section3-header2 textarea {
     height: 70px;
@@ -132,15 +133,16 @@
     width: 90%;
 }
 .check-box {
-   
+       padding-bottom: 27px;
 }
 .submit button{
     color: #CFE0ED;
     background: #172738;
 }
 .check-box input {
-	width: 21px;
-	height: 20px;
+width: 21px;
+    height: 20px;
+    margin-top: 73px
 }
 
 .submit {
@@ -153,12 +155,32 @@
 }
 
 .line {
-    margin-top: 1rem;
+        margin-top: 1rem;
     margin-bottom: 0rem;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
+    width: 250px;
+    margin-left: -5px;
 }
 body {
 	/**font-family: adobe-ocean,sans-serif;*/
 	font-family: 'Nolan' !important;
+}
+.section6-IMG{
+       margin-top: -52rem;
+    margin-left: -51rem;
+    height: 17rem;
+    width: 100%;
+	
+}
+
+     .dotGrid {
+    background-size: 48px 53px;
+    background-image: radial-gradient(#C8D5E2 4px, transparent 0);
+    width: 747px;
+    height: 26rem;
+    position: absolute;
+    top: 1.1rem;
+    margin-left: -28.7rem;
+
 }

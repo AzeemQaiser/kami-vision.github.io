@@ -949,7 +949,6 @@ a {
 }
 .cid-s48OLK6784 ul.navbar-nav {
   flex-wrap: wrap;
-   cursor: pointer;
 }
 .cid-s48OLK6784 .navbar-buttons {
   text-align: center;
@@ -1279,7 +1278,6 @@ a {
 }
 .cid-s48OLK6784 ul.navbar-nav {
   flex-wrap: wrap;
-  cursor: pointer;
 }
 .cid-s48OLK6784 .navbar-buttons {
   text-align: center;
@@ -2248,62 +2246,3 @@ ul.list.mbr-fonts-style.display-4.pad {
     height: 113px;
     width: 1px;
 } 
-.location {
-    font-size: 30px;
-  
-    margin-bottom: 4rem;
-}
-.bar-1 {
-    background-color: #f5feff;
-    height: 15rem;
-}
-
-.bar-2 {
-    background-color: #172738;
- height: 15rem;
-}
-
-.head h2 {
-    /* align-content: center; */
-    text-align: center;
-    font-size: 35px;
-    font-weight: 400;
-    padding-bottom: 60px;
-}
-
-.locaterow p {
-    padding-top: 2.8rem;
-}  
-
-p.add-1 {
-     padding-top: 0.5rem;
-}
-.bar-2 p{
-	color:#ffff;
-	font-size:16px;
-}
-.bar-1 p 
-{
-   
-   font-size: 13px;
-}
-.row.locaterow p {
-    line-height: 1.5;
-}
-.location .container {
-    width: 800px;
-    text-align: center!important;
-}
-.bar-1:hover {
-    background: black;
-    color: #ffff;
-	-ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1)
-}
-.bar-1:hover p {
-    font-size: 16px;
-}
-.navbar-logo-mar span {
-    cursor: pointer;
-}

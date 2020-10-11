@@ -187,16 +187,35 @@ section.sidemenu-mainrow {
     margin-bottom: 5px;
     padding-top: 4px;
     height: 18px;
-    width: 68px;
+    width: 80px;
     padding-left: 5px;
+	    display: -webkit-inline-box;
 }
 .sidemenu-active {
     opacity: 1 !important;
     background: #ffff;
     font-weight: 900;
 }
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #ffff;
+    border-radius: 50%;
+    border: 1px solid #93B4CC;
+    display: inline-block;
+    margin-right: 4px;
+}
+.sidemenu-div ul {
+    list-style: none;
+}
+.sidemenu-div li p {
+    padding-top: 2px;
+}
 li.sidemenu-active p {
     font-weight: 700;
+}
+li.sidemenu-active span {
+   background-color: #91D5FF;
 }
 @media (min-width: 991px) {
 

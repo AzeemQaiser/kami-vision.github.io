@@ -6,7 +6,7 @@
     <title></title>
   </head>
   <body>
-    <section class="slider1 cid-scOpuhkrIo" id="slider1-0">
+    <section class="slider1 cid-scOpuhkrIo target" id="section1">
       <div class="carousel slide" id="scOpFOirID" data-interval="5000">
        <ol class="carousel-indicators">
             <li data-slide-to="0" class="active" data-target="#scOpFOirID"></li>
@@ -76,8 +76,9 @@
             <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+		</div>
     </section>
-<section class="benefit-section">
+<section class="benefit-section target" id="section2">
    <div class="container">
    <div class="row">
       <div class="col-sm-6 col-md-6 col-lg-6">
@@ -149,9 +150,10 @@
          </div>
       </div>
    </div>
+    </div>
 </section>
 
-<section class="section3">
+<section class="section3 target" id="section3">
 	<div id="page-wrap">
 	<!-- <ul>
 	 <li> 
@@ -274,7 +276,7 @@
 	</div>
 	</div>
 </section>
-	<section class="consumer">
+	<section class="consumer target" id="section4">
 	<div class = " head"> 
 			   <h2>Consumer</h2>
 			   </div>
@@ -301,7 +303,7 @@
 			</div>
 		
 	</section>
-	<section class="business">
+	<section class="business target" id="section5">
 	
     <div class="container">
 	<div class="row bus-border">
@@ -324,7 +326,6 @@
 		
 		</div>
 		</div>
-		</div>
 		<div class = "tit-bus"> 
 			   <h2>Business</h2>
 			   </div>
@@ -333,11 +334,11 @@
 	<section class="sidemenu-mainrow">
 	   <div class="sidemenu-div">
 	     <ul> 
-		   <li class="sidemenu-active"><p>MISSION</p></li>
-		   <li><p>MTESTIMONIALS</p></li>
-		   <li><p>CONSUMER</p></li>
-		   <li><p>BUSINESS</p></li>
-		   <li><p>SOLUTIONS</p></li>
+		   <li id = "sidemenu-section1" class="sidemenu-active"><span class="dot"></span><p>MISSION</p></li>
+		   <li id = "sidemenu-section2"><span class="dot"></span><p>TESTIMONIALS</p></li>
+		   <li id = "sidemenu-section3"><span class="dot"></span><p>CONSUMER</p></li>
+		   <li id = "sidemenu-section4"><span class="dot"></span><p>BUSINESS</p></li>
+		   <li id = "sidemenu-section5"><span class="dot"></span><p>SOLUTIONS</p></li>
 		 </ul>
 	   </div>
 	</section>
@@ -361,6 +362,13 @@
              });
              k = 1;
            }
+		    $('.target').each(function() {
+        if($(window).scrollTop() >= $(this).offset().top) {
+            var id = $(this).attr('id');
+            $('.sidemenu-mainrow li').removeClass('sidemenu-active');
+            $('.sidemenu-mainrow #sidemenu-'+id ).addClass('sidemenu-active');
+        }
+        });
          }
          });  
 		 

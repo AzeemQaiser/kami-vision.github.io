@@ -136,30 +136,50 @@
       </section>
       <!---------------------------------------------------------------Script Loading------------------------------------------>
       <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/playervimeo/vimeo_player.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/countdown/jquery.countdown.min.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
+	  <script src="assets/nicescroll/jquery.nicescroll.js"></script> 
+	  <script src="assets/nicescroll/jquery.nicescroll.min.js"></script> 
       <script>
+	  var ACTIVEPAGE ;
 	  $(document).ready(function() {
 	      $("#launchrow").load("home.html");
+		  ACTIVEPAGE = "HOME";
+		  $("body").niceScroll();
 	  });
 	  $( ".navbar-logo" ).click(function() {
           $("#launchrow").load("home.html");
+		  ACTIVEPAGE = "HOME";
+		  removeNiceScrollElm();
         });
          $(function () {
              $("#aboutus").on("click", function () {
                  $("#launchrow").load("aboutkami.html");
+				 ACTIVEPAGE = "ABOUT";
+				 removeNiceScrollElm();
              });
              $("#partners").on("click", function () {
                  $("#launchrow").load("partner.html");
+				  ACTIVEPAGE = "partner";
+				  removeNiceScrollElm();
              });
          	 $("#solution").on("click", function () {
                  $("#launchrow").load("comingsoon.html");
+				 ACTIVEPAGE = "comingsoon";
+				 removeNiceScrollElm();
              });
          	 $("#careers").on("click", function () {
                  $("#launchrow").load("comingsoon.html");
+				  ACTIVEPAGE = "comingsoon";
+				  removeNiceScrollElm();
              });
          	 $("#contactus").on("click", function () {
                  $("#launchrow").load("getintouch.html");
+				  ACTIVEPAGE = "comingsoon";
+				  removeNiceScrollElm();
              });
          });
+		 function removeNiceScrollElm(){
+		   $("#page-wrap").getNiceScroll().remove();
+		 }
       </script>
    </body>
 </html>

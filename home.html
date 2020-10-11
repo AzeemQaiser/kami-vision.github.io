@@ -369,6 +369,7 @@
 $(".post").wrap("<td></td>");
 
 $(document).ready(function () {
+setTimeout(function(){ 
     $("#page-wrap").niceScroll({
         cursorcolor: "#9FD4FC",
         cursoropacitymin: 0.3,
@@ -378,6 +379,7 @@ $(document).ready(function () {
         cursorfixedheight: 50
     });
     $('#ascrail2000').show();
+	 }, 100);
 });
 /*
 $(window).scroll(function () {

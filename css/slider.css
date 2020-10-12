@@ -27,11 +27,13 @@
   margin-left: 5px;
   color: #ffffff;
   font-weight: 600;
+  font-size: 18px;
 }
 .cid-scOpuhkrIo .mobi-mbri-arrow-prev {
   margin-right: 5px;
   color: #ffffff;
   font-weight: 600;
+  font-size: 18px;
 }
 .carousel-caption p {
        font-size: 22px;
@@ -51,9 +53,17 @@
 }
 a.carousel-control.carousel-control-prev:hover{
 	background: #155598;
+	 -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%)
 }
 a.carousel-control.carousel-control-next:hover{
 	background: #155598;
+	 -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%)
 }
 .cid-scOpuhkrIo .item-wrapper {
   width: 100%;

@@ -1,5 +1,5 @@
 .floating-form {
-  width:320px;
+  width:100%;
 }
 
 /****  floating-Lable style start ****/
@@ -8,21 +8,27 @@
   margin-bottom:3rem; 
 }
 .floating-input , .floating-select {
-  font-size:14px;
-  padding:4px 4px;
-  display:block;
-  width:100%;
-  height:30px;
-  background-color: transparent;
-  border:none;
-  border-bottom:2px solid #17416D;
+    font-size: 14px;
+    padding: 4px 4px;
+    display: block;
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    align-content: right;
+    margin-left: 21px;
+    border-bottom: 2px solid #17416D;
 }
-
+.floating-label label::before {
+    content: "*";
+    padding-left: -6px;
+    padding-right: 10px;
+}
 .floating-input:focus , .floating-select:focus {
      outline:none;
      border-bottom:2px solid #17416D; 
 }
-
+.required:before { content:" *"; }
 label {
   color:#17416D; 
   font-size:14px;
@@ -60,21 +66,23 @@ label {
 }
 
 .floating-textarea {
-   min-height: 30px ;
+   min-height: 70px ;
    max-height: 260px; 
    overflow:hidden;
   overflow-x: hidden; 
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 .floating-textarea:focus ~ label, .floating-textarea:not(:placeholder-shown) ~ label {
-  top:-18px !important;
+  top:-30px !important;
+  height:50px;
   font-size:14px;
   color:#17416D;
 }
 
 .floating-textarea:focus ~ label , .floating-select:not([value=""]):valid ~ label {
-  top:-18px !important;
+  top:-30px !important;
   font-size:14px;
+  height:50px;
   color:#17416D;
 }
 /* highlighter */
@@ -115,27 +123,13 @@ label {
 .floating-heading { position:fixed; color:#aaa; font-size:20px; }
 /***  daniel - Fork me friend - style  ***/
 
-.contactsection{
-	margin-top: 2rem;
-    margin-left: 10rem;
-	margin-bottom: 2rem;
-}
-.contactsec-headrow h2 {
-      font-size: 40px;
-    font-weight: 400;
-    padding-bottom: 1.5rem;
-}
-.contactsec-headrow p {
-    font-size: 14px;
-}
-.container.contactdiv {
-    margin-top: 1.5rem;
-}
+
 .contactsec-form {
-    background: #D6E7F4;
+      background: #D6E7F4;
     padding-top: 2.5rem;
-    padding-left: 3.5rem;
-	    padding-bottom: 2.5rem;
+    padding-left: 3rem;
+    padding-bottom: 2.5rem;
+    padding-right: 3rem;
 }
 .contactsec-form h2 {
     font-size: 32px;
@@ -158,6 +152,7 @@ input.tbtn {
     text-align: right;
     padding-top: 10px;
     font-size: 10px;
+	padding-right: 1rem;
 }
 .mandatoryRow p {
     font-weight: 500;
@@ -190,10 +185,10 @@ p.contactsec-brntitle {
     border-color: #D6E7F4;
 }
 .dotGrid1 {
-       background-size: 24px 30px;
-    background-image: radial-gradient(#D6E7F4 2px, transparent 0);
+    background-size: 30px 32px;
+    background-image:radial-gradient(#DDEEFA 2.7px, transparent 0);
     width: 48%;
-    height: 227px;
+    height: 228px;
     position: absolute;
     opacity: 80%;
     top: -2.5rem;
@@ -201,9 +196,115 @@ p.contactsec-brntitle {
     padding-left: -11rem;
     margin-left: 36rem;
 }
+.txtarea-lable{
+	    top: 40px !important;
+}
 @media (min-width: 992px){
 .addrCol {
     padding-left: 40px;
     padding-right: 16px;
+}
+.contactsection{
+	margin-top: 2rem;
+    margin-left: 10rem;
+	margin-bottom: 2rem;
+}
+.contactsec-headrow h2 {
+      font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+}
+.contactsec-headrow p {
+    font-size: 14px;
+}
+.container.contactdiv {
+    margin-top: 1.5rem;
+}
+.maskrow {
+    position: absolute;
+    z-index: 0;
+    /* margin-right: 3rem; */
+    margin-top: -20rem;
+    margin-left: 65%;
+}
+.maskrow img {
+       float: right;
+    width: 300px;
+    height: 19.5rem;
+}
+}
+@media (max-width: 992px){
+.contactsection{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.contactsec-headrow h2 {
+      font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+}
+.contactsec-headrow p {
+    font-size: 14px;
+}
+.addrCol {
+    padding-left: 40px;
+    padding-right: 16px;
+}
+}
+@media (max-width: 768px){
+.contactsection{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.container.contactdiv {
+    margin-top: 1.5rem;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.contactsec-headrow h2 {
+         font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.contactsec-headrow p {
+    font-size: 10px;
+    color: #17416D;
+    font-weight: 500;
+}
+.contactsec-headrow {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.addrCol {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+.contactsec-form h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #17416D;
+}
+.maskrow {
+    position: absolute;
+    z-index: 0;
+    /* margin-right: 3rem; */
+    margin-top: -20rem;
+    margin-left: 80%;
+}
+.maskrow img {
+       float: right;
+    width: 300px;
+    height: 19.5rem;
+}
+.addrCol hr {
+    width: 100%;
+    text-align: left;
+    margin-left: 0px;
+	    padding-top: 16px;
+    /* padding-top: 3px; */
+    /* height: 2px; */
+    border-width: 1.5px;
+    border-color: #D6E7F4;
 }
 }

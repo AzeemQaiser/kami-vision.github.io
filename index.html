@@ -20,6 +20,7 @@
    <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
       <link rel="stylesheet" href="css/aboutus-custom.css" type="text/css">
 	  <link rel="stylesheet" href="css/loader.css" type="text/css">
+	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    </head>
    <body>
       <section class="menu cid-s48OLK6784" once="menu" id="menu1-p">
@@ -43,9 +44,9 @@
                </button>
                <div class="collapse navbar-collapse navbar-collapse-mar" id="navbarSupportedContent">
                   <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                     <li class="nav-item"><a class="nav-link link text-white menuFont-4" id = "aboutus" >ABOUT US</a></li>
+				     <li class="nav-item"><a class="nav-link link text-white menuFont-4" id = "solution">SOLUTIONS</a></li>
                      <li class="nav-item"><a class="nav-link link text-white menuFont-4" id = "partners">PARTNERS</a></li>
-                     <li class="nav-item"><a class="nav-link link text-white menuFont-4" id = "solution">SOLUTIONS</a></li>
+                     <li class="nav-item"><a class="nav-link link text-white menuFont-4" id = "aboutus" >ABOUT US</a></li>
                      <li class="nav-item"><a class="nav-link link text-white menuFont-4" id = "careers">CAREERS</a></li>
                      <li class="nav-item"><a class="nav-link link text-white menuFont-4" id = "contactus">CONTACT US</a></li>
                      <li class="nav-item navi"><span class="nav-link menuFont-4">
@@ -142,6 +143,13 @@
       <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/playervimeo/vimeo_player.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/countdown/jquery.countdown.min.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
 	  <script src="assets/nicescroll/jquery.nicescroll.js"></script> 
 	  <script src="assets/nicescroll/jquery.nicescroll.min.js"></script> 
+	<!--  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script> -->
       <script>
 	  var ACTIVEPAGE ;
 	  $(document).ready(function() {
@@ -166,13 +174,13 @@
 				  removeNiceScrollElm();
              });
          	 $("#solution").on("click", function () {
-                 $("#launchrow").load("comingsoon.html");
-				 ACTIVEPAGE = "comingsoon";
+                 $("#launchrow").load("solution.html");
+				 ACTIVEPAGE = "solution";
 				 removeNiceScrollElm();
              });
          	 $("#careers").on("click", function () {
                  $("#launchrow").load("career.html");
-				  ACTIVEPAGE = "comingsoon";
+				  ACTIVEPAGE = "career";
 				  removeNiceScrollElm();
              });
          	 $("#contactus").on("click", function () {

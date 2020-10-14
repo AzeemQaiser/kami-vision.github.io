@@ -1088,7 +1088,6 @@ a {
   color: #fff;
 }
 .cid-sckRajToeh {
-  padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   background-color: #ffffff;
 }
@@ -1810,7 +1809,8 @@ section.mediasec {
     padding-top: 32px;
     font-size: 11px;
     color: #2B527A;
-    font-weight: 500;
+    font-weight: 600;
+	line-height:1.3;
 }
 .mediaAlign {
         /* font-size: 24px; */
@@ -1859,7 +1859,7 @@ li.nav-item a{
     z-index: 0;
     top: -1.8rem;
     /* margin-right: 3rem; */
-    margin-left: -4rem;
+    margin-left: -5rem;
 }
 .masksec img {
     width: 30% !important;
@@ -1875,13 +1875,13 @@ li.nav-item a{
     width: 67%;
 }
 .clnet img {
-    width: 48%;
+    width: 36%;
 }
 .mediabg2 {
     padding-bottom: 2rem;
     padding-top: 2rem;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 li.mashable img {
     width: 88%;
@@ -2193,14 +2193,14 @@ section.mediasec {
     margin-left: 5rem;
 }
 .dotGrid {
-    background-size: 13px 13px;
+       background-size: 13px 13px;
     background-image: radial-gradient(#90B2CB 1.2px, transparent 0);
-    width: 58%;
+    width: 56%;
     height: 44%;
     position: absolute;
     opacity: 20%;
     top: -7rem;
-    margin-left: 26rem;
+    margin-left: 25rem;
 }
 ul.list.mbr-fonts-style.display-4.pad {
     padding-top: 6px;
@@ -2240,8 +2240,8 @@ ul.list.mbr-fonts-style.display-4.pad {
     background: #F4FAFF;
     padding-bottom: 2rem;
     padding-top: 2rem;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 .horizontalLine { 
     background-color: #707070;
@@ -2250,12 +2250,12 @@ ul.list.mbr-fonts-style.display-4.pad {
 } 
 .location {
     font-size: 30px;
-  
-    margin-bottom: 4rem;
+      margin-top: 3rem;
+    margin-bottom: 6rem;
 }
 .bar-1 {
     background-color: #f5feff;
-    height: 15rem;
+    height: 13rem;
 }
 
 .bar-2 {
@@ -2268,7 +2268,7 @@ ul.list.mbr-fonts-style.display-4.pad {
     text-align: center;
     font-size: 35px;
     font-weight: 400;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .locaterow p {
@@ -2289,6 +2289,7 @@ p.add-1 {
 }
 .row.locaterow p {
     line-height: 1.5;
+	font-size: 11px;
 }
 .location .container {
     width: 800px;
@@ -2297,13 +2298,22 @@ p.add-1 {
 .bar-1:hover {
     background: black;
     color: #ffff;
-	-ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1)
+	-ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1)
 }
 .bar-1:hover p {
-    font-size: 16px;
+    font-size: 14px;
 }
 .navbar-logo-mar span {
     cursor: pointer;
+}
+li.mashable {
+    background: #F4FAFF;
+}
+li.techcrunch {
+    background: #F4FAFF;
+}
+li.rollingstone {
+    background: #F4FAFF;
 }

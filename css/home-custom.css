@@ -171,7 +171,7 @@ div#page-wrap {
 section.section3 {
     background: #F4FAFF;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 
 section.sidemenu-mainrow {
@@ -467,4 +467,22 @@ section#section5 {
     /* height: 226px; */
        width: 118%;
     height: 323px;
+}
+.arrow-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 1rem;
+	    cursor: pointer;
+}
+.arrow-align img {
+    width: 30px;
+}
+.sec3-arrowleft{
+	    transform: rotate(180deg);
+    margin-right: 13px;
+    opacity: 0.2;
+}
+.sec3-arrowright{
+
 }

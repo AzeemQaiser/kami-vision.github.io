@@ -1,7 +1,7 @@
 section.benefit-section {
     background-image: linear-gradient(#CAE0F0, #FEFEFE);
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4.5rem;
 }
 .benefit-info-pad {
     padding-left: 6rem;
@@ -60,7 +60,6 @@ font-size: 14px;
     background-color: #ffff;
     margin-left: 6rem;
     margin-right: 3rem;
-    padding-bottom: 2rem;
     padding-top: 2rem;
 }
 
@@ -71,8 +70,11 @@ font-size: 14px;
 }
 .benefit-Bg {
     padding-top: 1rem;
+	    position: absolute;
 }
-
+.benefit-dtls li {
+  padding-bottom: 1.2rem;
+}
 .section3 li {
     padding: 1rem;
     width: 45%;
@@ -169,7 +171,7 @@ div#page-wrap {
 section.section3 {
     background: #F4FAFF;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 
 section.sidemenu-mainrow {
@@ -218,6 +220,7 @@ li.sidemenu-active span {
    background-color: #91D5FF;
 }
 @media (min-width: 991px) {
+	
 
 }
 
@@ -233,7 +236,8 @@ li.sidemenu-active span {
     height: 43px;
     /* margin-left: -168px; */
     /* padding-top: 1rem; */
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
+    margin-top: 4rem;
 }
 .head h2 {
     /* align-content: center; */
@@ -254,14 +258,16 @@ p.inside {
 p.outside {
     margin-left: 21px;
     margin-top: 32px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.5;
     padding-right: -1px;
 }
 img.mask-IMG {
+   
     margin-left: -28rem;
-    margin-top: -5rem;
-    height: 20rem;
+    margin-top: -7rem;
+    height: 19rem;
+
 }
 .more {
     margin-top: 16px;
@@ -278,14 +284,14 @@ img.mask-IMG {
 }
 @media (min-width: 991px){
 .row.con-border {
-       border: 1.5px solid #D7E8F4;
-    margin-top: 85px;
+         border: 1.5px solid #D7E8F4;
+    /* margin-top: -1px; */
     margin-left: 82px;
     /* margin-right: 0px; */
-    height: 32rem;
+    height: 30rem;
     padding-left: 49px;
     padding-right: 32px;
-    margin-bottom: 123px;
+      margin-bottom: 110px
 	
 }
 .bus-border > [class*="col"] {
@@ -296,14 +302,14 @@ img.mask-IMG {
 @media (max-width: 991px) {
 	
 	.row.con-border {
-      border: 1.5px solid #D7E8F4;
-    margin-top: 110px;
+           border: 1.5px solid #D7E8F4;
+    /* margin-top: -1px; */
     margin-left: 82px;
     /* margin-right: 0px; */
-    
+   
     padding-left: 49px;
     padding-right: 32px;
-    margin-bottom: 123px;
+       margin-bottom: 110px
 	
 }
 }	
@@ -311,13 +317,15 @@ img.mask-IMG {
 
 
 img.run-IMG {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: -3rem;
-    padding-left: 0px;
+    /* padding-left: 0px; */
+	    width: 90%;
+		    height: 24rem;
 }
 
 section.consumer {
-    padding-bottom: 137px;
+  
 }
 .container.body {
     margin-left: 230px;
@@ -338,13 +346,11 @@ img.line-IMG
 section.business {
    background-color: #c8dff0;
     height: 43rem;
-    margin-top: -202px;
     padding-top: 140px;
-    margin-bottom: 103px;
 }
 .tit-bus {
       background-color: #90b2cb;
-    width: 31%;
+    width: 26%;
     text-align: right;
     padding-right: 1rem;
     height: 49px;
@@ -369,13 +375,13 @@ section.business {
     padding-bottom: 39px;
 }
 .dotGridHome {
-  background-size: 15px 15px;
-    background-image: radial-gradient(#17416D 1.4px, transparent 0);
-    width: 67%;
+        background-size: 14px 15px;
+    background-image: radial-gradient(#17416D 1.5px, transparent 0);
+    width: 66%;
     height: 66%;
     position: absolute;
     opacity: 1;
-    margin-left: -21rem;
+    margin-left: -20rem;
     margin-top: -22rem;
 }
 img.people-IMG {
@@ -404,4 +410,79 @@ button.click {
     height: 17px;
     width: 45px;
     font-weight: 500;
+}
+.partnerdiv {
+    margin-left: 8rem;
+    margin-right: 7rem;
+}
+.partner-highlighttxt {
+    background: #90B2CB;
+    padding-left: 9px;
+    width: 30%;
+    text-align: center;
+    /* padding-top: 0.7rem; */
+    /* padding-bottom: 0.7rem; */
+    padding-bottom: -0.3rem;
+    margin-left: 5rem;
+    color: #ffff;
+    font-size: 25px;
+    /* margin-top: 2px; */
+    /* line-height: 0.5; */
+}
+.partner-highlighttxt p {
+    /* line-height: 1; */
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+}
+.partner-img {
+    margin-top: -1rem;
+}
+.partnersec-txt {
+    width: 80%;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+.partnersec-txt p {
+    font-size: 10px;
+    color: #5F7C9B;
+    font-weight: 500;
+    line-height: 1.5;
+}
+img.partnersec-scrip-img {
+    width: 9%;
+    margin-left: 56rem;
+    margin-top: -80px;
+    height: 5rem;
+}
+section#section5 {
+    padding-bottom: 8rem;
+	    padding-top: 4rem;
+}
+.benefitsectionbg {
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
+.benefitsectionbg img {
+    /* width: 548px; */
+    /* height: 226px; */
+       width: 118%;
+    height: 323px;
+}
+.arrow-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 1rem;
+	    cursor: pointer;
+}
+.arrow-align img {
+    width: 30px;
+}
+.sec3-arrowleft{
+	    transform: rotate(180deg);
+    margin-right: 13px;
+    opacity: 0.2;
+}
+.sec3-arrowright{
+
 }

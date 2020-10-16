@@ -23,6 +23,7 @@
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <link rel="stylesheet" href="css/home-custom.css" type="text/css">
 	  <link rel="stylesheet" href="css/career.css" type="text/css">
+	  <link rel="stylesheet" href="css/verticalslider.css" type="text/css">
       <link rel="stylesheet" href="css/responsive.css" type="text/css">
    </head>
    <body class="car-body">
@@ -108,7 +109,7 @@
             <div class="row career-workculture">
                <div class="col-sm-6 col-lg-6">
                   <div class="">
-                     <img src="images/Mask Group 25.png" class="mask-IMG">
+                     <img src="images/Mask Group 25.png" class="mask-IMG1">
                   </div>
                   <div class="img">
                      <p class="in-txt">Be at the helm of innovation with us</p>
@@ -155,28 +156,93 @@
          </div>
       </section>
       <section class= "swipe">
+           <div class="verticalslider">
          <div class="container">
-                  <ul>
-                     <li class = "page">
-                         <div class="img-1">
-                           <img src="images/Group-1.jpg" class="man-IMG">
+            <div class="slider" id="sld">
+               <div class="box1 sliderdiv active">
+                  <div class = "page">
+				  <div class="testimonial-bigbox">
+			       <img src="images\Career\testimonial-bigbox.png">
+			     </div>
+                     <div class="img-1">
+                        <img src="images/Career/testimonial1.png" class="man-IMG">
+                     </div>
+                     <div class="word">
+                        <p>Lorem ipsum dolor sit amet,stet clita kasd gubergren, no sea takimata sanctus est is th lorem.(1)</p>
+                        <p class="detail">Lorem ipsum dolor sit amet,stet clita kasd gubergren</p>
+                        <p class="career-name">ROGER GARFIELD</p>
+                        <div class="carrier-dtl">
+                           <p>JOINED KAMI IN 2014</p>
+                           <p class="carrier-designation">ACCOUNT MANAGER</p>
                         </div>
-                        <div class="word">
-                           <p>Lorem ipsum dolor sit amet,stet clita kasd gubergren, no sea takimata sanctus est is th lorem.</p>
-                           <p class="detail">Lorem ipsum dolor sit amet,stet clita kasd gubergren</p>
-						   <p class="career-name">ROGER GARFIELD</p>
-						   <div class="carrier-dtl">
-						     <p>JOINED KAMI IN 2014</p>
-							 <p class="carrier-designation">ACCOUNT MANAGER</p>
-						   </div>
+                     </div>
+                     <div class="sliderBtn">
+                        <div>  <img src="images/rightarrow-gray.svg" class="uparrow" onclick="fPrevious()"></div>
+                        <div>  <img src="images/rightarrow-gray.svg" class="downarrow" onclick="fNext()"></div>
+                     </div>
+					   <div class="testimonial-smallbox">
+			       <img src="images\Career\testimonial-smallbox.png">
+			     </div>
+                  </div>
+				  <div class="backdiv"></div>
+               </div>
+               <div class="box2 sliderdiv" >
+                  <div class = "page">
+				  <div class="testimonial-bigbox">
+			       <img src="images\Career\testimonial-bigbox.png">
+			     </div>
+                     <div class="img-1">
+                        <img src="images/Career/testimonial2.jpg" class="man-IMG">
+                     </div>
+                     <div class="word">
+                        <p>Lorem ipsum dolor sit amet,stet clita kasd gubergren, no sea takimata sanctus est is th lorem.(2)</p>
+                        <p class="detail">Lorem ipsum dolor sit amet,stet clita kasd gubergren</p>
+                        <p class="career-name">ROGER GARFIELD</p>
+                        <div class="carrier-dtl">
+                           <p>JOINED KAMI IN 2014</p>
+                           <p class="carrier-designation">ACCOUNT MANAGER</p>
                         </div>
-						<div class="sliderBtn">
-						  <div>  <img src="images/rightarrow-gray.svg" class="uparrow"></div>
-						   <div>  <img src="images/rightarrow-gray.svg" class="downarrow"></div>
-						</div>
-                     </li>
-                  </ul>
+                     </div>
+                     <div class="sliderBtn">
+                        <div>  <img src="images/rightarrow-gray.svg" class="uparrow" onclick="fPrevious()"></div>
+                        <div>  <img src="images/rightarrow-gray.svg" class="downarrow" onclick="fNext()"></div>
+                     </div>
+					   <div class="testimonial-smallbox">
+			       <img src="images\Career\testimonial-smallbox.png">
+			     </div>
+                  </div>
+				  <div class="backdiv"></div>
+               </div>
+               <div class="box3 sliderdiv" >
+                  <div class = "page">
+				  <div class="testimonial-bigbox">
+			       <img src="images\Career\testimonial-bigbox.png">
+			     </div>
+                     <div class="img-1">
+                        <img src="images/Career/testimonial3.png" class="man-IMG">
+                     </div>
+                     <div class="word">
+                        <p>Lorem ipsum dolor sit amet,stet clita kasd gubergren, no sea takimata sanctus est is th lorem.(3)</p>
+                        <p class="detail">Lorem ipsum dolor sit amet,stet clita kasd gubergren</p>
+                        <p class="career-name">ROGER GARFIELD</p>
+                        <div class="carrier-dtl">
+                           <p>JOINED KAMI IN 2014</p>
+                           <p class="carrier-designation">ACCOUNT MANAGER</p>
+                        </div>
+                     </div>
+                     <div class="sliderBtn">
+                        <div>  <img src="images/rightarrow-gray.svg" class="uparrow" onclick="fPrevious()"></div>
+                        <div>  <img src="images/rightarrow-gray.svg" class="downarrow" onclick="fNext()"></div>
+                     </div>
+					   <div class="testimonial-smallbox">
+			       <img src="images\Career\testimonial-smallbox.png">
+			     </div>
+                  </div>
+				  <div class="backdiv"></div>
+               </div>
+            </div>
          </div>
+      </div>
       </section>
 	  
 <!--	  <section>
@@ -385,6 +451,37 @@
                 $(".loader-wrapper").fadeOut("slow");
               });
             
+      </script>
+	    <script>
+       var slider =1;
+		var maxslide = 3;
+		function fPrevious(){
+		   if(slider > 1){
+			    slider--;
+			}else{
+			    slider = 3;
+			}
+			 $(".sliderdiv").removeClass('active');
+			 $(".sliderdiv").hide();
+			 $(".box"+slider).show();
+			 $(".box"+slider).addClass('active');
+		}
+        function  fNext(){
+		    if(slider < maxslide){
+			    slider++;
+			}else{
+			    slider = 1;
+			}
+			 $(".sliderdiv").removeClass('active');
+			 $(".sliderdiv").hide();
+			 $(".box"+slider).show();
+			// $(".box"+slider).slideUp();
+			 
+			 // $(".box"+slider).slideUp();
+			 //$(".box"+slider).fadeIn(500);
+			$(".box"+slider).addClass('active');
+			
+		}
       </script>
 </body>
 </html>

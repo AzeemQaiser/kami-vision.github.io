@@ -102,7 +102,7 @@ p.div-txt {
     /* height: 35rem; */
     /* margin-bottom: 51px; */
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 section.swipe ul {
     list-style: none;
@@ -136,23 +136,21 @@ section.swipe ul {
     margin-top: 5rem;
 }
 img.man-IMG {
-    width: 200px;
-    height: 200px;
+ width: 190px;
+    height: 185px;
 }
 .img-1 {
-   border: 1.4px solid #9CCEDD;
-    padding: 2rem 2rem 2rem 2rem;
-    border: heig;
-    /* height: 63px; */
-    height: 17rem;
+      border: 1.4px solid #9CCEDD;
+    padding: 2rem 2rem 0rem 2rem;
+    height: 16rem;
 }
 .word {
   padding-left: 4rem;
-    font-size: 23px;
+    font-size: 22px;
     padding-right: 3rem;
 }
 .word p {
-    font-weight: 500;
+    font-weight: 400;
     color: #17416D;
 }
 .word p.detail {
@@ -172,9 +170,11 @@ img.uparrow {
     margin-top: -0.5rem;
 }
 img.downarrow {
-    transform: rotate(90deg);
+       transform: rotate(90deg);
     transform-origin: left bottom;
     width: 40px;
+    /* padding-bottom: 0px; */
+    margin-top: -15px;
 }
 .carrier-dtl p {
     line-height: 0;
@@ -182,6 +182,7 @@ img.downarrow {
 .carrier-dtl {
     padding-top: 8px;
     /* color: #17416D; */
+	    font-size: 9px;
 }
 p.carrier-designation {
     font-weight: 600;
@@ -248,15 +249,30 @@ img.tag-IMG {
     margin-left: -8px;
 }
 .page {
-  background-color: white;
-    margin-left: 4rem;
-    margin-right: 2rem;
+   background-color: white;
+    margin-left: 7rem;
+    margin-right: 3rem;
     /* padding-top: 2rem; */
     /* padding-bottom: 2rem; */
-    padding: 3rem 3rem 3rem 4rem;
-    height: 23rem;
+    padding: 3rem 1.7rem 2rem 4rem;
+    height: 22rem;
     display: flex;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* box-shadow: 0 2px 2px rgba(0,0,0,0.16), 0 2px 2px rgba(0,0,0,0.11); */
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    /* box-shadow: 5px 10px 18px #EDEDED; */
+    -webkit-box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 16px 2px #EAECF4;
+    position: relative;
+    z-index: 10;
+}
+.backdiv {
+   width: 80%;
+    background: #ffff;
+    height: 2.5rem;
+    /* top: -16px; */
+    margin-left: 9.2rem;
 }
 section.career-2 {
     margin-top: 4rem;
@@ -322,3 +338,21 @@ section.career-2 {
     margin-left: 30rem;
     }
  }
+ .testimonial-bigbox img {
+    width: 70px;
+    height: 70px;
+}
+.testimonial-bigbox {
+       position: absolute;
+    left: 3rem;
+    top: 2rem;
+}
+.testimonial-smallbox {
+    position: absolute;
+    top: 17.8rem;
+    margin-left: 12rem;
+}
+.testimonial-smallbox img {
+    width: 35px;
+    height: 35px;
+}

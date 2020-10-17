@@ -51,16 +51,24 @@ font-size: 14px;
     border-right-style: hidden;
     border-left-style: groove;
     border-bottom-style: hidden;
+	    letter-spacing: -0.16px;
+    /* color: #17416D; */
+    font-family: arial;
 }
 .benefit-dtls p {
-    font-size: 10px;
+        font-size: 11px;
     line-height: 1.5;
+    padding-left: 0.7rem;
+    letter-spacing: -0.16px;
+    color: #17416D;
+    font-family: arial;
 }
 .benefit-dtls {
-    background-color: #ffff;
+       background-color: #ffff;
     margin-left: 6rem;
-    margin-right: 3rem;
+    margin-right: 1rem;
     padding-top: 2rem;
+    padding-right: 5rem;
 }
 
 .benefit-title {
@@ -294,7 +302,7 @@ img.mask-IMG {
 .benefitsectionbg img {
     /* width: 548px; */
     /* height: 226px; */
-          width: 550px;
+          width: 546px;
     height: 323px;
 	display:block;
 }

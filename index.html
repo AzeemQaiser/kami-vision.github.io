@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html class="scrollfixhide">
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,7 +63,7 @@
             </div>
          </nav>
       </section>
-      <section class="slider1 cid-scOpuhkrIo target" id="section1">
+      <section class="slider1 cid-scOpuhkrIo target sliderfix" id="section1">
          <div class="carousel slide" id="scOpFOirID" data-interval="5000">
             <ol class="carousel-indicators">
                <li data-slide-to="0" class="active" data-target="#scOpFOirID"></li>
@@ -135,6 +135,7 @@
             </a>
          </div>
       </section>
+	  	
       <section class="benefit-section target" id="section2">
          <div class="container">
             <div class="row">
@@ -164,7 +165,7 @@
                               <p class="countCnt-p">MANUFACTURING PARTNERS</p>
                            </div>
                         </div>
-                        <!-- <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> -->
+                     
                         <div class="col-4">
                            <div class="countCnt">
                               <p class="counter-identifier benefit-count">16</p>
@@ -212,6 +213,7 @@
             </div>
          </div>
       </section>
+
       <section class="section3 target" id="section2"  data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
          <div id="page-wrap">
             <div class="post" >
@@ -356,7 +358,7 @@
                <p>Partner with Kami</p>
             </div>
             <div class="partner-img"> <img src="images/home/Mask_Group_1.png" class="partnersec-scrip-img"></div>
-            <div class="partner-img"> <img src="images/home/partner.png" class="partnersec-img"></div>
+            <div class="partner-img padpartner"> <img src="images/home/partner.png" class="partnersec-img"></div>
             <div class="partnersec-txt"  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                <p>For manufacturers, Kami Vision provides hardware design services with features as per requirements.</p>
                <p>Every Kami Vision camera designs are edge enabled, have the best-in-class firmware and software, and are equipped to identify and store relevent vision data on cloud. The standard components in our repository ensure faster deployment time and lower production costs.</p>
@@ -390,6 +392,7 @@
             </ul>
          </div>
       </section>
+	   
       <section class="footer1 cid-sckHfhtRnm" once="footers" id="footer1-o">
          <div class="container footermar">
             <div class="row mbr-white">
@@ -497,10 +500,17 @@
                  k = 1;
                }
           $('.target').each(function() {
-            if($(window).scrollTop() >= $(this).offset().top) {
+            if($(window).scrollTop() >= ($(this).offset().top -400)) {
                 var id = $(this).attr('id');
+				if(id == "section2"){
+				   if($(window).scrollTop() >= ($(this).offset().top-300)) {
+				       $('.sidemenu-mainrow li').removeClass('sidemenu-active');
+                $('.sidemenu-mainrow #sidemenu-'+id ).addClass('sidemenu-active');
+				   }
+				}else{
                 $('.sidemenu-mainrow li').removeClass('sidemenu-active');
                 $('.sidemenu-mainrow #sidemenu-'+id ).addClass('sidemenu-active');
+				}
             }
             });
             
@@ -522,28 +532,8 @@
          });
          $('#ascrail1500').show();
          }, 100);
-         });
-         /*
-         $(window).scroll(function () {
-         var x = 0;
-         var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-         var oTop1 = $('#page-wrap').offset().top - window.innerHeight;
-         var currentSlide = 1;
-         if ($(window).scrollTop() > oTop1) {
-         var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-         a = setInterval(function(){
-         var scrollWidth = maxScrollWidth/4;
-          $('#page-wrap').animate({
-         scrollLeft: (scrollWidth*currentSlide)+80
-         }, 'slow');
-         currentSlide = currentSlide ==3 ? clearInterval(a): currentSlide+1;
-         }, 300);
-         }
-         });
-         $("#page-wrap").scroll(function(){
-         clearInterval(a);
-         }); */
-         
+		  $('body').css("overflow-x", "hidden !important");
+         });   
       </script>
       <script>
 	    $(document).ready(function() {

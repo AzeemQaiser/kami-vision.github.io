@@ -10,13 +10,11 @@
  .bg-setction-2 {
     height: 20rem;
     width: 100%;
-    margin-left: 1em;
+     
 }
 			.bg-setction-3{
-    height: 15rem;
-    margin-top: 0em;
-    margin-left: 0em;
-    margin-right: 0em;
+     height: 24rem;
+    position: initial;
 		}
 		.bg-setction-4{
      height: 21rem;
@@ -44,76 +42,114 @@
     margin-top: -40rem;
 }
 		.dotGrid {
-    background-size: 29px 51px;
-    background-image: radial-gradient(#90B2CB 2.2px, transparent 0);
+    background-size: 41px 49px;
+    background-image: radial-gradient(#D6E7F4 3.8px, transparent 0);
     width: 51%;
     height: 76%;
     position: absolute;
-    opacity: 36%;
+    opacity: 90%;
     top: -9rem;
-    margin-left: 38rem;
+    margin-left: 615px;
     margin-top: 8rem;
 }
 		.section2dot { 
-    background-size: 18px 18px;
-    background-image: radial-gradient(#90B2CB 1.5px, transparent 0);
-    width: 43%;
-    height: 19em;
+     background-size: 20px 18px;
+    background-image: radial-gradient(#D7EAFE 1.8px, transparent 0);
+    width: 53%;
+    height: 24em;
     position: absolute;
     opacity: 68%;
-    margin-left: -7rem;
+    margin-left: -8rem;
     margin-top: 1rem;
 }
 	.section2-image{
-	 height: 22em;
-    width: 36em;
-    margin-left: 3rem;
+	height: 23em;
+    width: 561px;
+    margin-left: 42px;
     position: absolute;
-    margin-top: -9em;
+    margin-top: -130px;
 		 
 	}
 	.mb-3{
-    text-align: center;
-    font-size: 33px;
+       text-align: center;
+    font-size: 43px;
     color: #000000;
     padding: 1em;
-    padding-left: 2em;
+    padding-left: 29px;
     padding-top: 3rem;
+    letter-spacing: -3px;
+    font-weight: 400;
 	}
 		.section2-content2{
-    font-size: 23px;
-    
+    font-size: 24px;
+    color:#585f63;
+    font-weight: 500;
      
 	}
 		.section2-content1{
    
-      padding-top: 63px;
+     padding-top: 51px;
+    margin-left: 637px;
      
 	}
+.section4-hcontent{
+    font-size: 15px;
+   letter-spacing: -1px;
+	color: #767676;
+}
+.section4-pcontent{
+ font-size: 10px;
+ color: #7D95AE;
+}
 		.secgrid3-1 {
-    height: 4em;
+    height: 53px;
+    width: 74px;
+    padding-left: 0em;
+    padding-right: 1em;
+}
+.section3-ul{
+    list-style-type: none;
+    display: inline-flex;
+    width: 49em;
+    height: 0px;
+    margin-left: -128px;
+    margin-top: 130px;
+	  
+}
+ .divider{
+  border-top: 2px solid #A8D9FC;
+}
+
+.section3-ul-2{
+    list-style-type: none;
+    display: inline-flex;
+    width: 49em;
+    height: 0px;
+    margin-left: -136px;
+    margin-top: 100px;
+	  
+}
+.section-4-benHead {
+     margin-top: 221px;
+    margin-left: 54px;
 }
 		.section3-li{
-		list-style-type: none;
-    display: inline-block;
-    width: 16em;
-    margin-left: 6em;
-    margin-top: -5em;
+		 
+      display: inline-flex;
+    margin-right: 3px;
 		}
-			.section3-li2{
-		list-style-type: none;
-    display: inline-block;
+			/*.section3-li2{
+		 
     width: 16em;
     margin-left: 6em;
     margin-top: -5em;
 		}
 			.section3-li3{
-		list-style-type: none;
-    display: inline-block;
+	 
     width: 16em;
     margin-left: 6em;
     margin-top: -5em;
-		}
+		}*/
      .hardwareli{
      list-style-type: none;
     display: inline-block;
@@ -210,7 +246,7 @@
      
    
 }
-          }
+     
 		.sect-4-r {
     margin-left: 6em;
     width: 55em;
@@ -248,8 +284,6 @@
 		    height: 2em;
     padding-left: 98px;
 		}
-
-
 		.sec-5-r {
     height: 3rem;
     width: 23rem;
@@ -418,8 +452,6 @@ padding-left: 0px;
  }
   @media (max-width: 991px) {
   }
+ 
 
-
-
-
-		
+ 

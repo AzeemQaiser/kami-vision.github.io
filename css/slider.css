@@ -103,6 +103,10 @@ a.carousel-control.carousel-control-next:hover{
     top: auto;
     bottom: 1rem;
   }
+.scrollfixhide {
+	overflow-x: hidden !important;
+}
+  
 }
 .cid-scOpuhkrIo .carousel-indicators {
   position: absolute;
@@ -197,4 +201,8 @@ a.carousel-control.carousel-control-next:hover{
 {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.nicescroll-rails-hr {
+    display: none !important;
 }

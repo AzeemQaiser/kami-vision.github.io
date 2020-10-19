@@ -514,3 +514,31 @@ section#section5 {
 .sec3-arrowright{
 
 }
+@media (max-width: 767px) {
+	.benefit-dtls p{
+	display: none;
+}
+.benefit-dtls h2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    overflow: visible;
+    /* border: 3px #E9F5FF solid; */
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    letter-spacing: -0.16px;
+    /* color: #17416D; */
+    font-family: arial;
+}
+.benefit-dtls {
+    background-color: #ffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 2em;
+    align-content: center;
+    text-align: center;
+}
+}

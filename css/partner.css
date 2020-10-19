@@ -13,7 +13,7 @@
      
 }
 			.bg-setction-3{
-     height: 24rem;
+     height: 28rem;
     position: initial;
 		}
 		.bg-setction-4{
@@ -27,12 +27,12 @@
    
 }
 			.bg-setction-6{
-   height: 90rem;
+   height: 89rem;
     width: 100%;
    
 }
 		 .bg-setction-8 {
-     height: 30rem;
+     height: 27rem;
     width: 100%;
     background-color: #EEEEEE;
     margin-top: -39rem;
@@ -45,29 +45,29 @@
     background-size: 41px 49px;
     background-image: radial-gradient(#D6E7F4 3.8px, transparent 0);
     width: 51%;
-    height: 76%;
+    height: 78%;
     position: absolute;
     opacity: 90%;
     top: -9rem;
     margin-left: 615px;
-    margin-top: 8rem;
+    margin-top: 134px;
 }
 		.section2dot { 
-     background-size: 20px 18px;
+    background-size: 20px 18px;
     background-image: radial-gradient(#D7EAFE 1.8px, transparent 0);
-    width: 53%;
+    width: 52%;
     height: 24em;
     position: absolute;
     opacity: 68%;
-    margin-left: -8rem;
+    margin-left: -9rem;
     margin-top: 1rem;
 }
 	.section2-image{
-	height: 23em;
-    width: 561px;
+	height: 365px;
+    width: 557px;
     margin-left: 42px;
     position: absolute;
-    margin-top: -130px;
+    margin-top: -126px;
 		 
 	}
 	.mb-3{
@@ -81,56 +81,55 @@
     font-weight: 400;
 	}
 		.section2-content2{
-    font-size: 24px;
-    color:#585f63;
+    font-size: 25px;
     font-weight: 500;
      
 	}
 		.section2-content1{
    
-     padding-top: 51px;
-    margin-left: 637px;
+     padding-top: 68px;
+    margin-left: 625px;
      
 	}
 .section4-hcontent{
     font-size: 15px;
    letter-spacing: -1px;
-	color: #767676;
 }
 .section4-pcontent{
- font-size: 10px;
- color: #7D95AE;
+    line-height: 1.3;
+    font-family: Arial;
+    font-size: 12px;
+    color: #244E89;
 }
 		.secgrid3-1 {
-    height: 53px;
-    width: 74px;
-    padding-left: 0em;
-    padding-right: 1em;
+     height: 55px;
+    width: 79px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 .section3-ul{
     list-style-type: none;
     display: inline-flex;
-    width: 49em;
+    width: 52em;
     height: 0px;
-    margin-left: -128px;
-    margin-top: 130px;
-	  
+    margin-left: -167px;
+    margin-top: 103px;
 }
  .divider{
   border-top: 2px solid #A8D9FC;
 }
 
 .section3-ul-2{
-    list-style-type: none;
+      list-style-type: none;
     display: inline-flex;
-    width: 49em;
+    width: 52em;
     height: 0px;
-    margin-left: -136px;
-    margin-top: 100px;
+    margin-left: -170px;
+    margin-top: 124px
 	  
 }
 .section-4-benHead {
-     margin-top: 221px;
+    margin-top: 200px;
     margin-left: 54px;
 }
 		.section3-li{
@@ -267,22 +266,23 @@
     margin-left: 1em;
     border-width: thin;
 	padding-top: 16px;
-    box-shadow: 1px 8px 8px 0px rgba(240, 245, 244, 1)
+    box-shadow: 8px -3px -20px 0px rgba(228, 233, 238, 1)
 }
 
 
 	.section4-img-1{
-	    padding-right: 3em;
+	       padding-right: 0em;
     padding-top: 2em;
     padding-bottom: 0px;
-    padding-left: 3rem;
-    height: 70px;
-    width: 16rem;
+    padding-left: 4rem;
+    height: 65px;
+    width: 13rem;
+
 		}
 
 		.section4-arrow-1{
 		    height: 2em;
-    padding-left: 98px;
+    padding-left: 98px;		
 		}
 		.sec-5-r {
     height: 3rem;
@@ -308,7 +308,7 @@
     height: 39em;
     width: 64em;
     margin-left: 6em;
-    margin-top: -3em;
+    margin-top: -4em;
     border-style: solid;
     border-color: #DBE6EE;
 			
@@ -319,7 +319,9 @@
     text-align: -webkit-left;
 }
 		.phead {
-    font-size: 14px;
+    
+	font-size: 14px;
+    font-family: Lato;
 }
 		.cal4-img1 {
      object-fit: none;
@@ -415,11 +417,11 @@ input[type=text], select {
     height: 31px;
 }
 textarea {
-  overflow: auto;
+      overflow: auto;
     resize: vertical;
     height: 5em;
-    width: 472px;
-    margin-left: 57px;
+    width: 473px;
+	    margin-left: 15px;
     border-color: #FFFFFF;
 }
 
@@ -433,12 +435,14 @@ textarea {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin-left: 66px;
+	    margin-left: 14px;
     
 }
   .pcontent {
+    line-height: 1.3;
+    font-family: Arial;
     font-size: 10px;
-    color: #778FA9;
+    color: #244E89;  
     padding-right: 28px;
 }
  @media (min-width: 991px) {

@@ -1,10 +1,13 @@
 section.solution.target {
-	margin-bottom: 10rem;
+	margin-bottom: 3rem;
+}
+.section2{
+    margin-top: 5rem;
 }
 .sol-head {
     background-color: #90b2cb;
     width: 18%;
-    height: 3rem;
+    height: 2.7rem;
     text-align: right;
     padding-right: 2rem;
     padding-top: 9px;
@@ -12,55 +15,56 @@ section.solution.target {
     color: white;
 }
 .sol-head h2 {
-    font-size: 27px;
-    opacity: 77%;
+   font-size: 24px;
+    opacity: 90%;
+    color: #ffff;
 }
 
 img.scrip-IMG {
-    width: 18%;
+       width: 18%;
     margin-top: 7rem;
     position: absolute;
-    height: 19rem;
+    height: 15.6rem;
 }
 
 .con-head {
-    padding-left: 6rem;
-    padding-top: 21px;
+    padding-top: 2rem;
+    letter-spacing: -3.2px;
 }
 
 .con-head h2 {
-    font-size: 45px;
+      font-size: 44px;
+    font-weight: 500;
     
 }
 img.con-IMG {
-    margin-left: 33rem;
-    width: 80%;
-    margin-top: -70px;
-    position: relative;
-    height: 28rem;
+    padding-top: 2rem;
+    width: 75%;
+    height: 400px;
+	    padding-left: 2rem;
 }
 
 .consumer-con {
-    padding-left: 6rem;
-    margin-top: -21rem;
-    position: absolute;
+       padding-top: 20px;
 }
 .consumer-con p {
-    line-height: 1.3;
+   line-height: 1.4;
     font-size: 16px;
+    letter-spacing: -0.16px;
+    font-family: 'Lato';
+    font-weight: 300;
+    padding-bottom: 5px;
 }
 
-img.lines-IMG {
-    margin-left: 45rem;
-    width: 96%;
-    margin-top: -31rem;
-    height: 23rem;
+img.lines-IMG { 
+      width: 33%;
+    float: right;
+    height: 350px;
+	    margin-top: -2rem;
 }
 
 .illustrative.icon {
-    padding-left: 24rem;
-    padding-top: 50px;
-    color: #496a8d;
+       color: #17416D;
 }
 
 .illustrative.icon h2 {
@@ -94,6 +98,7 @@ ul.icon {
 	padding-right: 11px;
 	font-size: 12px;
 	color: #496a8d;
+	    letter-spacing: -0.16px;
 }
 img.face-IMG {
     width: 36%;
@@ -138,7 +143,9 @@ img.baby-IMG {
 }
 
 .plat-head h2 {
-	font-size: 26px;
+	    font-size: 26px;
+    font-weight: 500;
+    color: #17416D;
 }
 
 .platform {
@@ -163,55 +170,73 @@ img.AI-IMG {
 
 ::marker {
     color: #a3a4d4;
-    font-weight: bold;
+    font-size: 15px;
 }
 
 h1.tit1-sol {
-    margin-top: -31px;
-    font-size: 15px;
+       margin-top: -33px;
+    font-size: 16px;
     padding-left: 6rem;
     position: absolute;
+    /* font-family: 'Lato'; */
+    letter-spacing: -1.01px;
+    color: #244E89;
+    font-weight: 300;
 }
 h1.tit2-sol {
     margin-top: -33px;
     font-size: 15px;
     margin-left: 4rem;
     color: white;
+	    opacity: 0.8;
 }
 h1.tit3-sol {
+       margin-left: 1rem;
     margin-top: -33px;
-    font-size: 15px;
-    margin-left: 1rem;
+    font-size: 16px;
+    /* padding-left: 6rem; */
     position: absolute;
+    /* font-family: 'Lato'; */
+    letter-spacing: -1.01px;
+    color: #244E89;
+    font-weight: 300;
 }
 h1.tit4-sol {
-    margin-top: -32px;
+      margin-left: 1rem;
+    margin-top: -33px;
     font-size: 15px;
     color: white;
-    margin-left: 1rem;
+    opacity: 0.8;
 }
 ul.cases1 {
     padding-top: 13px;
     padding-left: 6rem;
+	    letter-spacing: -0.5px;
 }
 ul.cases2 {
     padding-top: 21px;
     padding-left: 4rem;
+	    letter-spacing: -0.5px;
 }
 ul.cases3 {
     padding-top: 12px;
-    padding-left: 4rem;
+    padding-left: 2rem;
+	    letter-spacing: -0.5px;
 }
 ul.cases4 {
     padding-top: 21px;
-    padding-left: 4rem;
+    padding-left: 2rem;
+	    letter-spacing: -0.5px;
 }
 .case-head {
-    padding-left: 28rem;
+    padding-left: 25rem;
     padding-top: 33px;
     padding-bottom: 15px;
+  
 }
 .case-head h2 {
+    font-size: 24px;
+    letter-spacing: -1.01px;
     font-weight: 500;
 }
 
@@ -220,7 +245,7 @@ ul.case-con {
     margin-left: 5rem;
 }
 img.dog-IMG {
-     width: 102%; 
+     width: 95%; 
     height: 23rem;
 }
 
@@ -229,7 +254,7 @@ ul.case-con li {
     width: 29%;
     position: relative;
     display: inline-block;
-    /* padding-left: 17px; */
+    margin-left: -18px;
 }
 .case-con li:hover .overlay {
     display:block;
@@ -241,25 +266,29 @@ ul.case-con li {
 }
 section.usecasesec {
     margin-bottom: 5rem;
+    margin-left: 7rem;
 }
 .hed-sol {
-    text-align: center;
+         text-align: center;
     background-color: #131212;
     opacity: 80%;
     color: white;
     position: absolute;
     /* width: 28%; */
-    width: 102%;
-    font-size: 22px;
-    height: 4rem;
-    padding-top: 10px;
+    width: 95%;
+    font-size: 25px;
+    height: 5.5rem;
+    padding-top: 31px;
     top: 9rem;
     /* margin-left: 97px; */
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+h1.hed-sol.frstcontent {
+    padding-top: 19px;
 }
 .overlay {
-    width: 102%;
+    width: 95%;
     height: 23rem;
     display: none;
     position: absolute;
@@ -283,128 +312,18 @@ p.par-1 {
     font-weight: 400;
     color: black;
 }
-.section3 li {
-    padding: 1rem;
-    width: 45%;
-    display: inline-block;
+img.arrowleft-img {
+    width: 45px;
+    margin-left: 58px;
+    margin-top: 10.3rem;
+    position: absolute;
+    transform: rotate(180deg);
 }
-tr {
-  vertical-align: top;
-}
-.post {
-    width: 500px;
-  display: inline-flex;
-}
-
-.sec3-imgwrap {
-     position: relative;
-    width: 100px;
-    height: 100px;
-}
-.sec3-imgwrap img {
-  position: absolute;
-    left: -47px;
-	bottom: -70px;
-}
-#page-wrap td {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.sec3-bannercontent {
-    width: 70%;
-	margin-top: 19px;
-    margin-right: 50px;
-    margin-left: -6px;
-}
-.sec3-imgwrap3{
-	width: 50%;
-    float: right;
-}
-div#page-wrap {
-    overflow-x: auto;
-	overflow-y: hidden;
-}
-.section3 td:nth-child(even) .post{
-    background: #2B4057;
-	padding-top:30px;
-    padding-bottom: 30px;
-}
-.section3 td:nth-child(even) .sec3-title{
-	font-size: 22px;
-	line-height: 0;
-	 color: #FFFFFF;
-	font-weight:500;	
-}
-.section3 td:nth-child(even) .sec3-prof{
-	font-size: 10px;
-    color: #99CDF4;
-    font-weight: 500;	
-}
-.section3 td:nth-child(even) .sec3-cmts{
-	font-size:9px;
-	color: #E2E5E8;
-	font-weight:500;	
-}
-.section3 td:nth-child(odd) .post{
-    background: #FFFFFF;
-	padding-top: 30px;
-    padding-bottom: 30px;
-}
-.section3 td:nth-child(odd) .sec3-title{
-	font-size: 22px;
-	line-height: 0;
-	 color: #17416D;
-	font-weight:500;	
-}
-.section3 td:nth-child(odd) .sec3-prof{
-	font-size: 10px;
-    color: #17416D;
-    font-weight: 400;	
-}
-.section3 td:nth-child(odd) .sec3-cmts{
-	font-size:9px;
-	color: #17416D;
-	font-weight:500;	
-}
-.sec3-cmts p {
-    line-height: 1.5;
-}
-.sec3-comma {
-    margin-top: 2px;
-}
-.sec3-comma img {
-    width: 80%;
-    padding-left: 12px;
-}
-section.section3 {
-    background: #F4FAFF;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-}
-
-section.sidemenu-mainrow {
-    width: 10%;
-    font-size: 7px;
-    font-weight: 500;
-    top: 40%;
-    position: fixed;
-    background: transparent;
-    margin-left: -23px;
-}
-.sidemenu-mainrow li {
-     background: #ffff;
-    opacity: 0.6;
-    margin-bottom: 5px;
-    padding-top: 4px;
-    height: 18px;
-    width: 80px;
-    padding-left: 5px;
-	    display: -webkit-inline-box;
-}
-.sidemenu-active {
-    opacity: 1 !important;
-    background: #ffff;
-    font-weight: 900;
+img.arrowright-img {
+       width: 45px;
+    margin-left: 58.7rem;
+    margin-top: -15.3rem;
+    position: absolute;
 }
 .dot {
     height: 8px;
@@ -415,19 +334,6 @@ section.sidemenu-mainrow {
     display: inline-block;
     margin-right: 4px;
 }
-.sidemenu-div ul {
-    list-style: none;
-}
-.sidemenu-div li p {
-    padding-top: 2px;
-}
-li.sidemenu-active p {
-    font-weight: 700;
-}
-li.sidemenu-active span {
-   background-color: #91D5FF;
-}
-
 .camera-head h2 {
     text-align: center;
     padding-top: 4rem;
@@ -438,10 +344,10 @@ li.sidemenu-active span {
 .camera-head p {
     text-align: center;
     padding-top: 1rem;
-    font-size: 17px;
+    font-size: 16px;
     padding-left: 9rem;
     padding-right: 10rem;
-    font-weight: 500;
+   
 }
 img.homesec-img {
     margin-left: -68px;
@@ -454,12 +360,11 @@ img.homesec-img {
     border-color: #b2dcf5;
     border-width: thin;
     height: 40rem;
-    width: 113%;
-    margin-left: -4rem;
+    width: 100%;
 }
 button.click {
 
-    margin-top: 16px;
+    margin-top: -1px;
     position: absolute;
     color: #ffff;
     background-color: #3891ed;
@@ -500,22 +405,22 @@ button.click {
 .partnersec-txt {
     width: 80%;
     padding-left: 5rem;
-    padding-top: 1rem;
+    padding-top: 10rem;
 }
 .partnersec-txt p {
-    font-size: 11px;
+       font-size: 11px;
     color: #6b94bf;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5;
 }
 img.partnersec-scrip-img {
     width: 9%;
     margin-left: 56rem;
-    margin-top: -80px;
+    margin-top: -58px;
     height: 5rem;
 }
 section#section5 {
-    padding-bottom: 8rem;
+	    margin-top: 1rem;
 	   
 }
 ul.camera-libary {
@@ -541,19 +446,22 @@ ul.camera-libary {
     padding-bottom: 1rem;
 }
 .demos-camera p {
-    text-align: center;
+       text-align: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    font-size: 10px;
-    line-height: 1.4;
-	color: #496a8d;
+    font-size: 12px;
+    font-family: 'Arial';
+    letter-spacing: -0.16px;
+    color: #244E89;
+	    line-height: 1.4;
 }
 .demos-camera {
     background-color: aliceblue;
     height: 24rem;
-    width: 80%;
-    margin-left: 31px;
+    margin-left: 44px;
     margin-top: 2rem;
+    width: 75%;
+
 }
 .babycamera h1 {
     text-align: center;
@@ -563,62 +471,89 @@ ul.camera-libary {
     padding-bottom: 1rem;
 }
 .babycamera p {
+        line-height: 1.4;
+    /* color: #496a8d; */
     text-align: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    font-size: 10px;
-	    line-height: 1.4;
-		color: #496a8d;
+    font-size: 12px;
+    font-family: 'Arial';
+    letter-spacing: -0.16px;
+    color: #244E89;
 }
 .babycamera {
     background-color: #abd6fb;
-    height: 28rem;
-    width: 83%;
-    margin-left: -49px;
-    margin-top: -2rem;
+    height: 27rem;
+    width: 82%;
+    margin-left: -46px;
+    margin-top: -1rem;
 }
 .doorbell h1 {
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 .doorbell p {
+        line-height: 1.4;
+    /* color: #496a8d; */
     text-align: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    font-size: 10px;
-	    line-height: 1.4;
-		color: #496a8d;
+    font-size: 12px;
+    font-family: 'Arial';
+    letter-spacing: -0.16px;
+    color: #244E89;
 }
 .doorbell {
     background-color: aliceblue;
     height: 24rem;
-    width: 87%;
-    margin-left: -113px;
+    width: 82%;
+    margin-left: -104px;
     margin-top: 2rem;
 }
 .demos-img {
     background-color: #f6fffe;
 }
+.blue-bg {
+    background-color: #17416d;
+    padding-top: 3.7rem;
+    margin-left: -42px;
+    margin-top: -58px;
+    width: 81%;
+}
 img.demoscamera1-img {
-       width: 57%;
+     width: 57%;
     margin-left: 64px;
     background-color: #fafeff;
-    margin-top: 32px
+    margin-top: 22px;
+    padding-bottom: 7px;
+    padding-top: 5px;
 }
 img.demoscamera2-img {
     /* width: 62%; */
-    width: 75%;
-    margin-left: 2rem;
-   
-   }
+    width: 87%;
+    margin-left: 1rem;
+}
 img.demoscamera3-img {
-  margin-top: 2rem;
-    width: 55%;
+    width: 57%;
     margin-left: 64px;
     background-color: #fafeff;
+    margin-top: 22px;
+    padding-bottom: 9px;
+}
+img.homesec-img {
+    margin-left: -68.9px;
+    width: 15%;
+    height: 10rem;
+    margin-top: 326px;
+}
+img.homesec1-img {
+    width: 19%;
+    margin-left: 52.7rem;
+    margin-top: -10rem;
+    height: 10rem;
 }
 button.click-1 {
     margin-top: 20px;
@@ -628,16 +563,32 @@ button.click-1 {
     border-style: hidden;
     font-size: 14px;
     /* padding-top: 3px; */
-    height: 32px;
+    height: 28px;
     width: 72px;
     font-weight: 500;
-    margin-left: 33rem;
 }
 .bg-setction-8 {
     height: 30rem;
     width: 100%;
     background-color: #EEEEEE;
 }
-
-
-
+.titlemaskright {
+    width: 100%;
+    position: absolute;
+    /* height: 300px; */
+    /* float: right; */
+    top: 0;
+}
+@media (min-width: 768px) {
+  
+}
+@media (max-width: 768px) {
+	
+}
+@media (min-width: 992px) {
+	.consumersecrow > [class*="col"] {
+    padding-left: 10px;
+}
+}
+@media (max-width: 991px) {
+}

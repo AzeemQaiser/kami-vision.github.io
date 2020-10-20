@@ -24,6 +24,8 @@
       <link rel="stylesheet" href="css/slider.css" type="text/css" />
       <link rel="stylesheet" href="css/home-custom.css" type="text/css">
       <link rel="stylesheet" href="css/responsive.css" type="text/css">
+	    <link rel="stylesheet" href="css/testimonialSlider.css" type="text/css">
+	  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
    </head>
    <body>
        <section class="menu cid-s48OLK6784" once="menu" id="menu1-p">
@@ -220,8 +222,10 @@
       </section>
 
       <section class="section3 target" id="section2"  data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
-         <div id="page-wrap">
-            <div class="post" >
+	     <div class="container">
+         <div class="swiper-container testimonial">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide postStyle1">
                <div class="sec3-comma">
                   <object data="your.svg" type="image/svg+xml">
                   <img src = "images/home/commas1.svg">
@@ -238,9 +242,10 @@
               <!-- <div class="sec3-imgwrap">
                   <img src="images/home/person1.png" style="width: 97px;">
                </div> -->
-            </div>
-            <div class="post">
-               <div class="sec3-comma">
+           
+	  </div>
+      <div class="swiper-slide postStyle2">
+	          <div class="sec3-comma">
                   <object data="your.svg" type="image/svg+xml">
                   <img src = "images/home/commas.svg">
                   </object>
@@ -257,13 +262,13 @@
                   <img src="images/home/person2.png" style="height: 138px;width: 75px;">
                </div> -->
             </div>
-            <div class="post">
-               <div class="sec3-comma">
+      <div class="swiper-slide postStyle1">
+	           <div class="sec3-comma">
                   <object data="your.svg" type="image/svg+xml">
-                  <img src = "images/home/commas1.svg">
+                  <img src = "images/home/commas.svg">
                   </object>
                </div>
-               <div class="sec3-bannercontent">
+             <div class="sec3-bannercontent">
                   <p class="sec3-title">Tessla</p>
                   <p class="sec3-prof">Manager, Pan Advanced Printing</p>
                   <div class="sec3-cmts">
@@ -272,16 +277,16 @@
                   </div>
                </div>
               <!-- <div class="sec3-imgwrap">
-                  <img src="images/home/person1.png" style="width: 97px;">
+                  <img src="images/home/person2.png" style="height: 138px;width: 75px;">
                </div> -->
             </div>
-            <div class="post">
-               <div class="sec3-comma">
+      <div class="swiper-slide postStyle2">
+	  <div class="sec3-comma">
                   <object data="your.svg" type="image/svg+xml">
                   <img src = "images/home/commas.svg">
                   </object>
                </div>
-               <div class="sec3-bannercontent">
+                <div class="sec3-bannercontent">
                   <p class="sec3-title">Omega</p>
                   <p class="sec3-prof">Manager, Pan Advanced Printing</p>
                   <div class="sec3-cmts">
@@ -289,19 +294,22 @@
                      <p>Ut vim mundi alienum interpretaris. Quis odio dicant vel ut.</p>
                   </div>
                </div>
-             <!--  <div class="sec3-imgwrap">
+              <!-- <div class="sec3-imgwrap">
                   <img src="images/home/person2.png" style="height: 138px;width: 75px;">
                </div> -->
             </div>
-         </div>
-		 <div class="arrow-align">
+    </div>	
+  </div>
+   <div class="arrow-align">
 		    <div class="sec3-arrowleft" id="arrow-left">
 		    <img src = "images/home/roundarrow.svg">
 			</div>
 			<div class="sec3-arrowright" id="arrow-right">
 			<img src = "images/home/roundarrow.svg">
 			</div>
-		 </div>
+   </div>
+
+         </div>
       </section>
       <section class="consumer target" id="section3">
          <div class = " head">
@@ -469,7 +477,7 @@
          </div>
       </section>
       <section class="footersecnew1" style="background-color: #1d3855;font-family: Nolan;color: #ffffff;font-size: 10px;font-weight: 600;padding: 0px;align-items: center;display: flex;flex: 1 1;height: 2.3rem;padding-left: 9rem;/* margin-left: 1rem; */">
-         <p style="flex: 0 0 auto; margin:0; padding-right:1rem;">@ 2020, Official Kami Vision, All rights reserved</p>
+         <p class="container" style="flex: 0 0 auto; margin:0; padding-right:1rem;">@ 2020, Official Kami Vision, All rights reserved</p>
       </section>
       <div class="loader-wrapper">
          <span class="loader"><span class="loader-inner"></span></span>
@@ -522,21 +530,8 @@
              });  
          
          
-         $("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
-         $(".post").wrap("<td></td>");
          
          $(document).ready(function () {
-         setTimeout(function(){ 
-         $("#page-wrap").niceScroll({
-            cursorcolor: "#9FD4FC",
-            cursoropacitymin: 0.3,
-            background: "#ffff",
-            cursorborder: "0",
-            autohidemode: false,
-            cursorfixedheight: 50
-         });
-         $('#ascrail1500').show();
-         }, 100);
 		  $('body').css("overflow-x", "hidden !important");
          });   
 		 
@@ -551,64 +546,27 @@
 		 }
       </script>
       <script>
-	    $(document).ready(function() {
-		  $("body").niceScroll();
-		  $("body").css( "overflow-x", "hidden");
-	  });
-        var currentSlide = 1;
-		$("#arrow-right").click(function(){
-   slideright();
-});
-$("#arrow-left").click(function(){
-   sliderLeft();
-})
-function slideright(){
-debugger;
-        var opacity = $("#arrow-right").css('opacity');
-           if(opacity == 1){
-         var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-         var oTop1 = $('#page-wrap').offset().left - window.innerWidth;
-         
-         if ($(window).scrollLeft() > oTop1) {
-         var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-    
-         var scrollWidth = maxScrollWidth/4;
-          $('#page-wrap').animate({
-         scrollLeft: (scrollWidth*currentSlide)+100
-         }, 'slow');
-         currentSlide++;
-		  $(".sec3-arrowleft").css('opacity','1');
-          if(currentSlide>=4){
-               $(".sec3-arrowright").css('opacity','0.2');
-          }
-         }
-		 }
-}
-function sliderLeft(){
-debugger;
-          var opacity = $("#arrow-left").css('opacity');
-            if(opacity == 1){
-         var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-         var oTop1 = $('#page-wrap').offset().left - window.innerWidth;
-         
-     
-         var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-    
-         var scrollWidth = maxScrollWidth/4;
-          $('#page-wrap').animate({
-         scrollLeft: (scrollWidth*currentSlide)-100
-         }, 'slow');
-         currentSlide--;
-		 $(".sec3-arrowright").css('opacity','1');
-          if(currentSlide <=1){
-               $(".sec3-arrowleft").css('opacity','0.2');
-          }
-		  }
-}
            $(window).on("load",function(){
                 $(".loader-wrapper").fadeOut("slow");
               });
             
       </script>
+	  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 2,
+      spaceBetween: 50,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+	   navigation: {
+        nextEl: '.sec3-arrowright',
+        prevEl: '.sec3-arrowleft',
+      }
+    });
+  </script>
    </body>
 </html>

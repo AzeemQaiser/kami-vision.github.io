@@ -83,105 +83,6 @@ font-size: 14px;
 .benefit-dtls li {
   padding-bottom: 1.2rem;
 }
-.section3 li {
-    padding: 1rem;
-    width: 45%;
-    display: inline-block;
-}
-tr {
-  vertical-align: top;
-}
-.post {
-    width: 500px;
-  display: inline-flex;
-}
-
-.sec3-imgwrap {
-     position: relative;
-    width: 100px;
-    height: 100px;
-}
-.sec3-imgwrap img {
-  position: absolute;
-    left: -47px;
-	bottom: -70px;
-}
-#page-wrap td {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.sec3-bannercontent {
-    width: 70%;
-	margin-top: 19px;
-    margin-right: 50px;
-    margin-left: -6px;
-}
-.sec3-imgwrap3{
-	width: 50%;
-    float: right;
-}
-div#page-wrap {
-    overflow-x: auto;
-	overflow-y: hidden;
-}
-.section3 td:nth-child(even) .post{
-    background: #2B4057;
-	padding-top:30px;
-    padding-bottom: 30px;
-}
-.section3 td:nth-child(even) .sec3-title{
-	font-size: 22px;
-	line-height: 0;
-	 color: #FFFFFF;
-	font-weight:500;	
-}
-.section3 td:nth-child(even) .sec3-prof{
-	font-size: 10px;
-    color: #99CDF4;
-    font-weight: 500;	
-}
-.section3 td:nth-child(even) .sec3-cmts{
-	font-size:9px;
-	color: #E2E5E8;
-	font-weight:500;	
-}
-.section3 td:nth-child(odd) .post{
-    background: #FFFFFF;
-	padding-top: 30px;
-    padding-bottom: 30px;
-}
-.section3 td:nth-child(odd) .sec3-title{
-	font-size: 22px;
-	line-height: 0;
-	 color: #17416D;
-	font-weight:500;	
-}
-.section3 td:nth-child(odd) .sec3-prof{
-	font-size: 10px;
-    color: #17416D;
-    font-weight: 400;	
-}
-.section3 td:nth-child(odd) .sec3-cmts{
-	font-size:9px;
-	color: #17416D;
-	font-weight:500;	
-}
-.sec3-cmts p {
-    line-height: 1.5;
-}
-.sec3-comma {
-    margin-top: 2px;
-}
-.sec3-comma img {
-    width: 80%;
-    padding-left: 12px;
-}
-section.section3 {
-    background: #F4FAFF;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-}
-
 section.sidemenu-mainrow {
     width: 10%;
     font-size: 7px;
@@ -594,24 +495,6 @@ section#section5 {
     margin-top: -0.5rem;
 }
 
-.arrow-align {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	margin-top: 1rem;
-	    cursor: pointer;
-}
-.arrow-align img {
-    width: 30px;
-}
-.sec3-arrowleft{
-	    transform: rotate(180deg);
-    margin-right: 13px;
-    opacity: 0.2;
-}
-.sec3-arrowright{
-
-}
 @media (max-width: 767px) {
 	.benefit-dtls p{
 	display: none;

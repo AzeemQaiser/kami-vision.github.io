@@ -1631,6 +1631,7 @@ a {
 }
 /****min-width: 992px ************/
 @media (min-width: 992px) {
+	
 	.bgcnt {
     background: #414141;
 	padding-left: 99px !important;
@@ -2480,7 +2481,7 @@ section.section3 {
 }
 ul.list.mbr-fonts-style.display-4.pad {
     padding-top: 6px;
-    padding-left: 6px;
+    padding-left: 0;
 }
 .col-12.col-md-6.col-lg-4.socialDisp {
     margin-top: 3rem;

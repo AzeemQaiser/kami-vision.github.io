@@ -393,6 +393,12 @@ section#section2 .container {
 .sec3col {
 	padding-right: 7px !important;
 }
+.col-4.cntmar {
+    margin-left: -11px;
+}
+.col-sm-6.col-md-6.col-lg-6.innercntcol {
+    margin-left: -16px;
+}
 }
 @media (max-width: 991px) {
 	
@@ -621,7 +627,6 @@ section#section5 {
 .sec3-arrowleft{
 	    transform: rotate(180deg);
     margin-right: 13px;
-    opacity: 0.2;
 }
 .sec3-arrowright{
 
@@ -704,7 +709,4 @@ a.childmenuborder {
 img.people-IMG {
     z-index: 1;
     position: relative;
-}
-.col-4.cntmar {
-    margin-left: -11px;
 }

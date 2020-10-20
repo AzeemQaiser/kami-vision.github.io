@@ -2,9 +2,10 @@
     .swiper-container {
       width: 100%;
       height: auto;
+    margin-left: -7px !important;
     }
-
-    .swiper-slide {
+@media (min-width: 991px) {
+	    .swiper-slide {
      font-size: 18px;
     background: #fff;
     display: -webkit-box;
@@ -20,6 +21,24 @@
     margin-left: 5px !important;
     width: 50% !important;
     }
+}	
+@media (max-width: 991px) {
+	    .swiper-slide {
+     font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    /* -webkit-justify-content: center; */
+    justify-content: center;
+    -webkit-box-align: center;
+	margin-right: 5px !important;
+    margin-left: 5px !important;
+    }
+}	
 	.testimonial{
 	
 	}

@@ -583,7 +583,70 @@ button.click-1 {
   
 }
 @media (max-width: 768px) {
-	
+	.sol-head {
+		width: 175px;
+	}
+	.consumersecrow .con-head {
+    width: 100%;
+}
+.consumersecrow .con-head h2 {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.sol-body .section2 .illustrative h2 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 34px;
+}
+.sol-body .section2 .box-icon ul {
+    padding: 0;
+    display: unset;
+}
+.sol-body .section2 .box-icon ul li {
+    width: 45% !important;
+    display: inline-block;
+    height: auto;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+.sol-body .section2 .box-icon ul li img {
+    width: 50px;
+    margin: 0 auto 20px !important;
+    height: 50px;
+}
+.sol-body .section2 .box-icon ul li img, .sol-body .section2 .box-icon ul li p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.sol-body .section2 .box-icon ul li img, .sol-body .section2 .box-icon ul li p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.sol-body .section2 .box-icon {
+    margin: 0;
+}
+.plat-head {
+    padding-left: 0;
+    padding-bottom: 28px;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.platform {
+    display: unset;
+}
+.platform .w1 {
+    width: 100%;
+    display: block;
+}
+ul.cases1{
+	padding-left: 30px;
+}
 }
 @media (min-width: 992px) {
 	.consumersecrow > [class*="col"] {

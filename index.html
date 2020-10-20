@@ -158,7 +158,7 @@
                   </div>
                   <div class="custcnt">
                      <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 cntmar">
                            <div class="countCnt">
                               <p class="counter-identifier benefit-count">100</p>
                               <p class="benefit-count">+</p>
@@ -223,6 +223,8 @@
 
       <section class="section3 target" id="section2"  data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
 	     <div class="container">
+		  <div class="row">
+               <div class="col-sm-12 col-md-12 col-lg-12 sec3col">
          <div class="swiper-container testimonial">
     <div class="swiper-wrapper">
       <div class="swiper-slide postStyle1">
@@ -310,6 +312,8 @@
    </div>
 
          </div>
+		   </div>
+            </div>
       </section>
       <section class="consumer target" id="section3">
          <div class = " head">
@@ -556,8 +560,8 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 2,
-      spaceBetween: 50,
+      slidesPerView: 1,
+      spaceBetween: 10,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -565,7 +569,22 @@
 	   navigation: {
         nextEl: '.sec3-arrowright',
         prevEl: '.sec3-arrowleft',
-      }
+      },
+	  breakpoints: {
+    // when window width is >= 320px
+       640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        992: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        }
+  }
     });
   </script>
    </body>

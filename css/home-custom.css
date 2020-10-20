@@ -230,7 +230,7 @@ section.sidemenu-mainrow {
     padding-left: 8px;
 }
 .sidemenu-mainrow li.sidemenu-active p {
-    font-weight: 900;
+    font-weight: 700;
 }
 .sidemenu-div ul {
     list-style: none;
@@ -337,23 +337,21 @@ img.mask-IMG {
 }
 /*20-9 banner content style*/
 .cid-scOpuhkrIo .carousel-caption {
-    top: 40%;
+    top: unset;
     background: #172738;
-    width: auto;
+    width: 400px;
     position: absolute;
-    min-width: 300px;
     padding: 1.5rem;
     height: auto;
     display: block;
-	max-width: 32%;
-	bottom: unset;
+	bottom: 80px;
 }
 
 .cid-scOpuhkrIo .carousel-caption p {
-    font-size: 23px;
+    font-size: 24px;
     width: 100%;
     display: block;
-    padding: 10px 15px 10px;
+    padding: 0;
 	position: unset;
 }
 .captionimage-wrapper {

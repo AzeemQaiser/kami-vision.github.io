@@ -255,21 +255,20 @@ li.sidemenu-active span {
     position: relative;
 }
 .consumer.target .head {
-    position: absolute;
-    top: 0;
+      position: absolute;
+    /* top: 0; */
     margin-left: -78px;
-	margin-right:0;
-	margin-top:0;
-	margin-bottom:0;
+    margin-right: 0;
+    margin-top: -34px;
+    margin-bottom: 0;
 }
 .head {
-	
-	 background-color: #90b2cb;
-    width: 318px;
-    max-width: 25%;
+	background-color: #90b2cb;
+    width: 324px;
+    /* max-width: 25%; */
     text-align: right;
     padding-right: 1rem;
-    height: 43px;
+    height: 48px;
     /* margin-left: -168px; */
     /* padding-top: 1rem; */
     /* margin-bottom: 4rem; */
@@ -277,15 +276,15 @@ li.sidemenu-active span {
 }
 .head h2 {
     /* align-content: center; */
-text-align: right;
+    text-align: right;
     font-size: 24px;
     font-weight: 400;
     /* padding-bottom: 60px; */
     color: #ffff;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 .consumer.target .container {
-    padding-top: 160px;
+    padding-top: 115px;
 }
 .consumer.target .row.con-border {
     margin-bottom: 70px;
@@ -320,8 +319,8 @@ img.mask-IMG {
     border-style: hidden;
     font-size: 8px;
     /* padding-top: 3px; */
-    height: 17px;
-    width: 45px;
+   height: 20px;
+    width: 54px;
     font-family: 'Lato';
     font-weight: 500;
 }
@@ -550,17 +549,18 @@ img.people-IMG {
     margin-left: -11px;
 }
 p.bus-inside {
-   font-size: 15px;
+    font-size: 15px;
     line-height: 1.5;
     font-family: 'Lato';
     font-weight: 300;
+    margin-top: 35px;
 }
 .col-sm-6.col-lg-6.bus-pad {
     padding-left: 48px;
 }
 p.bus-head {
-       font-size: 23px;
-    font-weight: 500;
+       font-size: 27px;
+    font-weight: 400;
 }
 button.click {
 
@@ -569,10 +569,10 @@ button.click {
     color: #ffff;
     background-color: #3891ed;
     border-style: hidden;
-    font-size: 8px;
+    font-size: 12px;
     /* padding-top: 3px; */
-    height: 17px;
-    width: 45px;
+       height: 20px;
+    width: 54px;
     font-weight: 500;
 	    font-family: 'Lato';
 }

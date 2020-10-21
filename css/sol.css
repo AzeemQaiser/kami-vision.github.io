@@ -323,6 +323,7 @@ section.usecasesec {
     margin-left: 7rem;
 }
 .hed-sol {
+	font-family: 'Lato';
          text-align: center;
     background-color: #131212;
     opacity: 80%;
@@ -330,7 +331,7 @@ section.usecasesec {
     position: absolute;
     /* width: 28%; */
     width: 95%;
-    font-size: 25px;
+    font-size: 27px;
     height: 5.5rem;
     padding-top: 31px;
     top: 9rem;
@@ -359,12 +360,14 @@ h1.hed-sol.frstcontent {
     font-weight: 500;
     padding-bottom: 1rem;
     color: black;
+	font-family: 'Lato';
 }
 p.par-1 {
-    line-height: 1.2;
+  line-height: 1.3;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     color: black;
+    font-family: 'Lato';
 }
 img.arrowleft-img {
     width: 45px;
@@ -400,7 +403,9 @@ img.arrowright-img {
 .camera-head p {
     text-align: center;
     padding-top: 1rem;
-    font-size: 16px;
+        font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 300;
     padding-left: 9rem;
     padding-right: 10rem;
    
@@ -503,6 +508,7 @@ ul.camera-libary {
     font-weight: 600;
     padding-top: 2rem;
     padding-bottom: 1rem;
+	    font-family: 'Lato';
 }
 .demos-camera p {
    text-align: center;
@@ -529,6 +535,7 @@ ul.camera-libary {
     font-weight: 600;
     padding-top: 2rem;
     padding-bottom: 1rem;
+	    font-family: 'Lato';
 }
 .babycamera p {
         line-height: 1.4;
@@ -555,6 +562,7 @@ ul.camera-libary {
     font-weight: 600;
     padding-top: 2rem;
     padding-bottom: 1rem;
+	   font-family: 'Lato';
 }
 .doorbell p {
         line-height: 1.4;

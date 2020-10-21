@@ -19,7 +19,7 @@
     -webkit-box-align: center;
 	margin-right: 5px !important;
     margin-left: 5px !important;
-    width: 50% !important;
+    /*width: 50% !important;*/
     }
 }	
 @media (max-width: 991px) {
@@ -80,11 +80,13 @@
 	line-height: 0;
 	 color: #FFFFFF;
 	font-weight:500;	
+	font-family: 'Lato';
 }
 .postStyle2 .sec3-prof{
-	font-size: 10px;
+	font-size: 12px;
     color: #99CDF4;
-    font-weight: 500;	
+    font-weight: 400;
+    font-family: 'Lato';
 }
 .postStyle2 .sec3-cmts{
 	font-size:9px;
@@ -100,12 +102,14 @@
 	font-size: 22px;
 	line-height: 0;
 	 color: #17416D;
-	font-weight:500;	
+	font-weight:500;
+font-family: 'Lato';	
 }
 .postStyle1 .sec3-prof{
-	font-size: 10px;
+	font-size: 12px;
     color: #17416D;
-    font-weight: 400;	
+    font-weight: 400;
+    font-family: 'Lato';
 }
 .postStyle1 .sec3-cmts{
 	font-size:9px;
@@ -113,7 +117,10 @@
 	font-weight:500;	
 }
 .sec3-cmts p {
-    line-height: 1.5;
+        line-height: 1.5;
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: -0.16px;
 }
 .sec3-comma {
     margin-top: 2px;
@@ -126,4 +133,58 @@ section.section3 {
     background: #F4FAFF;
     padding-top: 4rem;
     padding-bottom: 1rem;
+}
+@media (max-width: 767px) {
+	.swiper-slide {
+    display: block;
+	}
+	.sec3-comma img {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 99px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: center;
+	}
+	.sec3-bannercontent {
+    width: 100%;
+    margin-top: 19px;
+    text-align: center;
+	    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.sec3-cmts p {
+    line-height: 1.5;
+    font-family: 'Lato';
+    font-size: 13px;
+    letter-spacing: -0.16px;
+}
+.postStyle1 .sec3-title {
+    font-size: 30px;
+    line-height: 0;
+    color: #17416D;
+    font-weight: 500;
+    font-family: 'Lato';
+	  padding-bottom: 8px;
+}
+.postStyle1 .sec3-prof {
+    font-size: 15px;
+    color: #17416D;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+.postStyle2 .sec3-title{
+	font-size: 30px;
+	line-height: 0;
+	 color: #FFFFFF;
+	font-weight:500;	
+	font-family: 'Lato';
+	    padding-bottom: 8px;
+}
+.swiper-container {
+  padding-top: 2rem !important;
+}
+
 }

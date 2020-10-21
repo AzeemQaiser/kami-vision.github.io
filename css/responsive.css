@@ -87,7 +87,7 @@ section.business {
     padding-bottom: 0;
 }
 p.bus-head {
-    font-size: 1em;line-height: normal;
+    font-size: 18px;line-height: normal;
 margin-top: 1em;}
 .partnerdiv {
     margin-left: 0;
@@ -119,5 +119,8 @@ section#section5 {
 }
 section.benefit-section {
     padding-top: 2rem;
+}
+section.business {
+	padding-bottom: 0px;
 }
 }

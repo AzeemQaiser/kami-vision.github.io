@@ -2,7 +2,7 @@ section.solution.target {
 	margin-bottom: 3rem;
 }
 .section2{
-        margin-top: 7rem;
+        margin-top: 5rem;
 }
 .sol-head {
        background-color: #90b2cb;
@@ -697,7 +697,7 @@ button.click-1 {
       width: 104%;
     position: absolute;
     float: right;
-    top: 70px;
+    top: 60px;
 }
 .buttonsub {
     background: #17416D;
@@ -714,7 +714,7 @@ button.click-1 {
 }
 .consumersecrow img.con-IMG {
     padding-top: 2rem;
-    width: 365px;
+    width: 410px;
     height: auto;
     padding-left: 2rem;
 }
@@ -1088,11 +1088,11 @@ section#section5 {
     display: inline-flex;
 }
 .padtop {
-       padding-top: 12rem;
-	       left: -40px;
+      padding-top: 9rem;
+    left: -73px;
 }
 .titlecol {
-    padding-top: 7rem;
+    padding-top: 8rem;
     left: -70px;
 	padding-right: 0px!important;
 }

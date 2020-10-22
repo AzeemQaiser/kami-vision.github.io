@@ -75,6 +75,7 @@
       </section>
       <section class="solution target">
          <div class="container">
+		      <div class="gridrow dotGridConsumer"></div>
             <div class="titlemaskright">
                <img src="images/Consumer/TitleSec-RightStrip.png" class="lines-IMG">
             </div>
@@ -424,7 +425,7 @@
             <div class="section-8-heading">
                <h4 style="color: #7E8285;padding-left: 62px;font-size: 26px;font-weight: 500;">Lets have a conversation</h4>
             </div>
-            <form class="section-8-form">
+            <form class="section-8-form" action="javascript:void(0);">
                <div class="row1" style="padding-bottom: 20px;width: 46rem;margin-left: 74px;">
                   <div class="col-sm-4" >
                      <input type="text" placeholder="First Name">
@@ -448,7 +449,7 @@
                </div>
                <div class="row4">
                   <div class="col-sm-8" >
-                     <button class="buttonsub">SUBMIT</button>
+                     <button class="buttonsub" onclick="sendmail()">SUBMIT</button>
                   </div>
                </div>
             </form>
@@ -565,11 +566,11 @@
          breakpoints: {
          // when window width is >= 320px
           640: {
-              slidesPerView: 1.1,
+              slidesPerView: 1,
              spaceBetween: 10
            },
            768: {
-             slidesPerView: 1.1,
+             slidesPerView: 1,
              spaceBetween: 10
            },
            992: {
@@ -608,7 +609,9 @@
          }
          });
          
-         
+              function sendmail(){
+   alert("Function is under development")
+}
       </script>
    </body>
 </html>

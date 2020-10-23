@@ -694,7 +694,7 @@ button.click-1 {
     font-size: 14px;
 }
 .titlemaskright {
-      width: 104%;
+      width: 100%;
     position: absolute;
     float: right;
     top: 60px;

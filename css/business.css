@@ -694,7 +694,7 @@ button.click-1 {
     font-size: 14px;
 }
 .titlemaskright {
-      width: 104%;
+      width: 100%;
     position: absolute;
     float: right;
     top: 70px;
@@ -766,7 +766,7 @@ section#section5 {
 
 .img-comp-container {
   position: relative;
-  height: 200px; /*should be the same height as the images*/
+  height: 270px; /*should be the same height as the images*/
 }
 
 .img-comp-img {
@@ -795,6 +795,10 @@ section#section5 {
   opacity: 1;
   border-radius: 50%;
       border: 2px solid #ffff;
+}
+img.sliderimg {
+    width: 500px !important;
+    height: 270px;
 }
 .highlightDiv {
    background-color: #000;
@@ -842,6 +846,20 @@ section#section5 {
 .gridrow {
 	display:none;
 }
+.dotGridBusiness {
+     background-size: 24px 24px;
+    background-image: radial-gradient(#90B2CB 1.5px, transparent 0);
+    width: 60%;
+    height: 22%;
+    position: absolute;
+    opacity: 1;
+    top: 2rem;
+    margin-left: 13rem;
+}
+.gridrow {
+	display:none;
+}
+
 /*.demos1-img img, .demos3-img img {
     width: 110px;
 }
@@ -852,6 +870,12 @@ section#section5 {
   
 }
 @media (max-width: 768px) {
+   .contactForm{
+	   
+	       padding-bottom: 20px;
+    width: 100% !important;
+    margin-left: 0px !important;
+   }
 	.sol-head {
 		width: 175px !important;
 		    left: -13px !important;
@@ -1030,11 +1054,11 @@ ul.cases1{
 }
 
 .solution img.lines-IMG {
-    width: 1500px;
+    width: 0px;
     float: right;
-    height: 134px;
-    margin-top: -2rem;
-    right: -1360px;
+    height: 0;
+    margin-top: 0;
+    right: 0px;
     position: absolute;
 	display:none;
 }
@@ -1206,6 +1230,52 @@ button.click{
 	position: relative;
 	margin-bottom: 30px;
 }
+	img.sliderimg {
+    width: 330px !important;
+    height: 220px;
+   }
+   .highlightDiv {
+   background-color: #000;
+    width: 136px;
+    height: 2.2rem;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 9px;
+    margin-top: 0rem;
+    color: white;
+}
+.sliderTitle {
+    position: absolute;
+    top: 25.7rem;
+    display: inline-flex;
+}
+	.consumersecrow .con-head {
+    width: 100%;
+	text-align: right;
+    padding-bottom: 16rem;
+}
+
+.dotGridBusiness {
+    background-size: 24px 24px;
+    background-image: radial-gradient(#90B2CB 1.5px, transparent 0);
+    width: 37%;
+    height: 22%;
+    position: absolute;
+    opacity: 1;
+    top: 2rem;
+    margin-left: 13rem;
+}
+img.scrip-IMG {
+    width: 20px;
+    margin-top: 29rem;
+    position: absolute;
+    height: 15.5rem;
+    left: 324px;
+    z-index: 1;
+    right: 0px;
+    /* float: right; */
+}
 .bg-setction-8 .section-8-heading, .bg-setction-8 .section-8-form {
     margin-left: 0;
     margin-right: 0;
@@ -1254,6 +1324,17 @@ p.par-1 {
     color: #172738;
     font-family: 'Nolan';
 }
+.highlightDiv {
+   background-color: #000;
+    width: 132px;
+    height: 2.2rem;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 9px;
+    margin-top: 0rem;
+    color: white;
+}
 }
 .swiper-slide {
     margin-right: 0px !important;
@@ -1265,18 +1346,4 @@ p.par-1 {
 }
 }
 @media (max-width: 991px) {
-}
-
-.dotGridBusiness {
-     background-size: 24px 24px;
-    background-image: radial-gradient(#90B2CB 1.5px, transparent 0);
-    width: 60%;
-    height: 22%;
-    position: absolute;
-    opacity: 1;
-    top: 2rem;
-    margin-left: 13rem;
-}
-.gridrow {
-	display:none;
 }

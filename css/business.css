@@ -264,10 +264,11 @@ h1.tit3-sol {
 h1.tit4-sol {
       margin-left: 1rem;
     margin-top: -33px;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     opacity: 0.8;
 	color: white;
+	letter-spacing: -1.01px;
     font-weight: 300;
 	padding-top: 4px;
 }
@@ -511,7 +512,7 @@ ul.camera-libary {
 }
 .demos-camera h1 {
     text-align: center;
-   font-size: 26px;
+   font-size: 18px;
     font-weight: 600;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -538,7 +539,7 @@ ul.camera-libary {
 }
 .babycamera h1 {
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -1335,6 +1336,10 @@ p.par-1 {
     padding-top: 9px;
     margin-top: 0rem;
     color: white;
+}
+.partner-img {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
 }
 }
 .swiper-slide {

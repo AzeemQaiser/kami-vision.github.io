@@ -2755,3 +2755,22 @@ section.hdrsec2 {
     display: block;
 }
 }
+@media (max-width: 992px) {
+	.cid-s48OLK6784 ul.navbar-nav {
+  flex-wrap: wrap;
+  cursor: pointer;
+      text-align: center;
+}
+.dropdown-content {
+    /* margin-left: 41px; */
+    /* font-size: 15px; */
+    /* font-family: sans-serif; */
+    text-transform: uppercase;
+}
+.dropdown-content img {
+    display: none;
+}
+a#solution {
+    display: none;
+}
+}

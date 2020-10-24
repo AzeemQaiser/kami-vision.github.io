@@ -662,9 +662,9 @@ button.click-1 {
 }
 .section-8-form {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-left: 0;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 .section-8-form .row1, .section-8-form .row2, .section-8-form .row3, .section-8-form .row4 {
     margin-left: 0 !important;
@@ -673,6 +673,7 @@ button.click-1 {
 .section-8-form .col-sm-4 {
     display: inline-block;
     max-width: 50%;
+	width: 50% !important;
     float: left;
     padding-left: 0;
     padding-right: 30px;
@@ -690,7 +691,7 @@ button.click-1 {
 }
 .section-8-form input {
        height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-family: arial;
     font-size: 14px;
 }
@@ -1292,6 +1293,7 @@ img.scrip-IMG {
 .section-8-form .col-sm-4 {
     display: inline-block;
     max-width: 100%;
+	width: 100% !important;
     float: left;
     padding-left: 0;
     padding-right: 0;

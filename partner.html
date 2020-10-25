@@ -30,11 +30,11 @@
       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
    </head>
    <body>
-      <section class="menu cid-s48OLK6784" once="menu" id="menu1-p">
+           <section class="menu cid-s48OLK6784" once="menu" id="menu1-p">
          <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
             <div class="container">
                <div class="navbar-brand navbar-logo-mar">
-                  <a class="navbar-logo">
+                  <a class="navbar-logo" href="index.html">
                   <object data="your.svg" type="image/svg+xml">
                   <img src="images/Common/logo.svg" />
                   </object>
@@ -54,8 +54,8 @@
                      <li class="nav-item dropdown">
                         <a class="nav-link link menuFont-4" id = "solution"  href="#" >SOLUTIONS</a>
                         <div class="dropdown-content">
-                           <div class="submenu-item childmenuborder"><img src="Iconset/group.svg" /><a href="consumer.html" class="">For Consumer</a> </div>
-                           <div class="submenu-item child1"><img src="Iconset/supermarket.svg" /><a href="business.html">For Business</a> </div>
+                           <div class="submenu-item childmenuborder"><img src="Iconset/group.svg" /><a class="menuFont-4" href="consumer.html" class="">For Consumer</a> </div>
+                           <div class="submenu-item child1"><img src="Iconset/supermarket.svg" /><a class="menuFont-4" href="business.html">For Business</a> </div>
                         </div>
                      </li>
                      <li class="nav-item"><a class="nav-link link menuFont-4" id = "partners" href="partner.html">PARTNERS</a></li>
@@ -397,21 +397,21 @@
                   <div>
                      <div class="row inconborder" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                         <div class="col-lg-2 col-sm-2">
-                           <p  style="text-align:left;font-size: 30px;padding-top:0;color: #C8D3E1;">1</p>
+                           <p  class="numberstyle">1</p>
                            <p class="phead">Integrate your software into Kami Vision
                            </p>
                            <p class="pcontent">If you have vision solutions but need a one-stop-shop platform to create a holistic product, partner with us to leverage Kami Vision’s existing platform.
                            </p>
                         </div>
                         <div class="col-lg-2 col-sm-2">
-                           <p  style="text-align:left;font-size: 30px;padding-top:0;color: #C8D3E1;">2</p>
+                           <p  class="numberstyle">2</p>
                            <p class="phead">Integrate Kami Vision software into yours
                            </p>
                            <p class="pcontent">You have a platform of your own but would like to upgrade capabilities with more functionality. By partnering with Kami Vision you’ll gain access to an exhaustive repository of vision APIs that have been proven to work by our current partners.
                            </p>
                         </div>
                         <div class="col-lg-2 col-sm-2">
-                           <p style="text-align:left;font-size: 30px;padding-top:0;color: #C8D3E1;">3</p>
+                           <p class="numberstyle">3</p>
                            <p class="phead">Innovate with Kami
                            </p>
                            <p class="pcontent">Do you have a ground-breaking idea in the field of vision AI? Our deep industry expertise, technical capabilities and existing partnerships will help realize your concept.
@@ -428,7 +428,7 @@
                            <img class="cal4-img4" src="images/Partner/Custom-solutions-for-your-business-vision-ai.jpeg">
                         </div>
                         <div class="col-lg-2 col-sm-2">
-                           <p  style="text-align:left;font-size: 30px;padding-top:0;color: #C8D3E1;">4</p>
+                           <p  class="numberstyle">4</p>
                            <p class="phead">Custom solution for your business
                            </p>
                            <p class="pcontent">
@@ -436,7 +436,7 @@
                            </p>
                         </div>
                         <div class="col-lg-2 col-sm-2">
-                           <p  style="text-align:left;font-size: 30px;padding-top:0;color: #C8D3E1;">5</p>
+                           <p  class="numberstyle">5</p>
                            <p class="phead"> License Kami’s capabilities
                            </p>
                            <p class="pcontent">
@@ -444,7 +444,7 @@
                            </p>
                         </div>
                         <div class="col-lg-3 col-sm-2">
-                           <p style="text-align:left;font-size: 30px;padding-top:0;color: #C8D3E1;">6</p>
+                           <p class="numberstyle">6</p>
                            <p class="phead">Find a supplier
                            </p>
                            <p class="pcontent">
@@ -597,56 +597,9 @@
          $("body").niceScroll();
          $("body").css( "overflow-x", "hidden");
          });
-            var currentSlide = 1;
-         $("#arrow-right").click(function(){
-         slideright();
-         });
-         $("#arrow-left").click(function(){
-         sliderLeft();
-         })
-         function slideright(){
-         debugger;
-            var opacity = $("#arrow-right").css('opacity');
-               if(opacity == 1){
-             var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-             var oTop1 = $('#page-wrap').offset().left - window.innerWidth;
-             
-             if ($(window).scrollLeft() > oTop1) {
-             var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-         
-             var scrollWidth = maxScrollWidth/4;
-              $('#page-wrap').animate({
-             scrollLeft: (scrollWidth*currentSlide)+100
-             }, 'slow');
-             currentSlide++;
-         $(".sec3-arrowleft").css('opacity','1');
-              if(currentSlide>=4){
-                   $(".sec3-arrowright").css('opacity','0.2');
-              }
-             }
-         }
-         }
-         function sliderLeft(){
-         debugger;
-              var opacity = $("#arrow-left").css('opacity');
-                if(opacity == 1){
-             var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-             var oTop1 = $('#page-wrap').offset().left - window.innerWidth;
-             
-         
-             var maxScrollWidth = $('#page-wrap').get(0).scrollWidth - $('#page-wrap').get(0).clientWidth;
-         
-             var scrollWidth = maxScrollWidth/4;
-              $('#page-wrap').animate({
-             scrollLeft: (scrollWidth*currentSlide)-100
-             }, 'slow');
-             currentSlide--;
-         $(".sec3-arrowright").css('opacity','1');
-              if(currentSlide <=1){
-                   $(".sec3-arrowleft").css('opacity','0.2');
-              }
-         }
-         }
+        
+     
+
                $(window).on("load",function(){
                     $(".loader-wrapper").fadeOut("slow");
                   });

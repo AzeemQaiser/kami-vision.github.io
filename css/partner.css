@@ -7,7 +7,14 @@
  
 	 
 }
-		
+	.numberstyle{
+	font-size: 36px;
+    padding-top: 0;
+    color: #C8D3E1;
+    font-family: 'nolan';
+    letter-spacing: -2.4px;
+    font-weight: 300;
+}	
  .bg-setction-2 {
     height: 20rem;
     width: 100%;
@@ -50,9 +57,9 @@
 		.dotGrid {
      background-size: 41px 48px;
     background-image: radial-gradient(#D6E7F4 3.8px, transparent 0);
-    width: 102%;
+width: 61%;
     height: 210px;
-	right: -46%;
+    right: -6.5%;
 	z-index: 0;
 	top: 0;
 	margin-top: 0;
@@ -858,11 +865,12 @@ padding-left: 0px;
 	
 }
 .dotGrid {
-    background-size: 21px 16px;
+background-size: 24px 20px;
     background-image: radial-gradient(#D6E7F4 2.8px, transparent 0);
-    width: 70%;
-    height: 145px;
-    right: -75px;
+    width: 57%;
+    height: 133px;
+    right: 0px;
+    top: 0px;
 }
 .section2-image {
     height: auto;
@@ -968,11 +976,11 @@ padding-left: 0px;
     padding-top: 10px !important;
 }
 .section6-img-1 {
-    height: 200px;
-    width: 300px;
+      height: 21px;
+    width: 205px;
     transform: rotate(90deg);
-    margin-left: -233px;
-    margin-top: 4em;
+    margin-left: -101px;
+    margin-top: 17em;
 }
 .bg-setction-6 .row .col-lg-2 {
     position: absolute;
@@ -1028,12 +1036,14 @@ margin-right: auto !important
 }
 .cal4-img2 {
     position: absolute;
-    width: 115%;
+    width: 100%;
     height: auto;
     margin-top: 0;
     left: 0px;
+    padding-left: 30px;
     top: -285px;
 }
+
 .bg-setction-6 .row-2 {
     margin-left: 0;
 	padding-top: 285px;
@@ -1082,6 +1092,16 @@ margin-right: auto !important
 }
 .section-8-heading.padHead {
     padding-left: 62px !important;
+}
+.section6-img-2 {
+    height: 343px;
+    width: 219px;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+       left: 0px;
+    bottom: 0px;
+    display: none;
 }
 }
  

@@ -2327,22 +2327,22 @@ img.people-IMG {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-li.mashable img {
+.mashable img {
     width: 88%;
 }
 .wired img {
     width: 88%;
 }
-li.techcrunch img {
+.techcrunch img {
     width: 100%;
 }
-li.digest img {
+.digest img {
     width: 66%;
 }
-li.rollingstone img {
+.rollingstone img {
     width: 85%;
 }
-li.nav-item.navi {
+.nav-item.navi {
    padding-top: 22px;
     padding-left: 20px;
     padding-right: 42px;

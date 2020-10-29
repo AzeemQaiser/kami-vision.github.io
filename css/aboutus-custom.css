@@ -1693,12 +1693,9 @@ p.add-1 {
 .bar-1:hover {
     background: black;
     color: #ffff;
-	-ms-transform: scale(1); /* IE 9 */
-  -webkit-transform: scale(1); /* Safari 3-8 */
-  transform: scale(1)
 }
 .bar-1:hover p {
-    font-size: 14px;
+    font-size: 13px;
 }
 .navbar-logo-mar span {
     cursor: pointer;
